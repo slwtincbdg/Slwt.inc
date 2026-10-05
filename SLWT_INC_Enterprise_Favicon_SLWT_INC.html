@@ -1,0 +1,2533 @@
+<!DOCTYPE html>
+<html lang="id" class="h-full">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SLWT.INC Enterprise - System Terpadu</title>
+    <!-- SLWT.INC Browser Favicon: embedded logo, works when HTML is opened directly -->
+    <link rel="icon" type="image/png" sizes="64x64" href="data:image/png;base64,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">
+    <link rel="shortcut icon" type="image/png" href="data:image/png;base64,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">
+    <link rel="apple-touch-icon" sizes="64x64" href="data:image/png;base64,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">
+    <meta name="theme-color" content="#0f172a">
+
+    <!-- Tailwind CSS CDN -->
+    <script defer src="https://cdn.tailwindcss.com" onerror="window.__slwtTailwindFailed=true"></script>
+    <!-- FontAwesome CDN -->
+    <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" onload="this.onload=null;this.rel='stylesheet'" onerror="this.remove()"><noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"></noscript>
+    <!-- Chart.js CDN -->
+    <script defer src="https://cdn.jsdelivr.net/npm/chart.js@4.5.0/dist/chart.umd.min.js" onerror="this.onerror=null;this.src='https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.5.0/chart.umd.min.js'"></script>
+    <!-- SheetJS (Excel Engine) CDN -->
+    <script defer src="https://cdn.sheetjs.com/xlsx-0.20.3/package/dist/xlsx.full.min.js" onerror="this.onerror=null;this.src='https://cdn.jsdelivr.net/npm/xlsx@0.20.3/dist/xlsx.full.min.js'"></script>
+    <!-- Google Font: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" onload="this.onload=null;this.rel='stylesheet'"><noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"></noscript>
+
+    <!-- JavaScript Logika Aplikasi (Dipasang sebelum Alpine.js defer) -->
+    <script>
+        // SLWT compatibility bootstrap: prevent one blocked CDN/storage issue from blanking the app.
+        window.SLWT = window.SLWT || {};
+        window.SLWT.safeStorage = function () {
+            try {
+                var s = window.localStorage;
+                var k = '__slwt_storage_test__';
+                s.setItem(k, '1'); s.removeItem(k);
+                return s;
+            } catch (e) {
+                return { getItem:function(){return null;}, setItem:function(){}, removeItem:function(){}, clear:function(){} };
+            }
+        };
+        window.SLWT.storage = window.SLWT.safeStorage();
+        window.addEventListener('error', function (e) {
+            // Keep third-party CDN errors from becoming an unexplained blank screen.
+            if (e && e.filename && /tailwind|fontawesome|chart|xlsx|alpine|jsdelivr|cdnjs|unpkg/i.test(e.filename)) {
+                console.warn('SLWT third-party resource failed:', e.filename);
+            }
+        });
+    </script>
+    <script>
+        document.addEventListener('alpine:init', () => {
+            Alpine.data('unifiedApp', () => ({
+                currentTab: 'invoice',
+                productModalOpen: false,
+                productCrudModalOpen: false,
+                customerModalOpen: false,
+                photoPreviewModalOpen: false,
+                companyReportModalOpen: false,
+                editTransactionModalOpen: false,
+                metricModalOpen: false,
+
+                selectedMetricType: 'Masuk',
+                selectedMonth: '',
+                customerSearchQuery: '',
+
+                editingProductId: null,
+                editingCustomerId: null,
+                activePhotoSrc: '',
+
+                productForm: { name: '', desc: '', price: 0 },
+                custForm: { name: '', phone: '', address: '', orderDate: '', productOrdered: '', notes: '' },
+
+                defaultNavItems: [
+                    { key: 'invoice', defaultLabel: 'Buat Invoice', icon: 'fa-solid fa-file-pen' },
+                    { key: 'customers', defaultLabel: 'Data Pelanggan', icon: 'fa-solid fa-users' },
+                    { key: 'products', defaultLabel: 'Master Produk', icon: 'fa-solid fa-boxes-stacked' },
+                    { key: 'history', defaultLabel: 'Riwayat Invoice', icon: 'fa-solid fa-clock-rotate-left' },
+                    { key: 'finance', defaultLabel: 'Rekap Keuangan', icon: 'fa-solid fa-wallet' },
+                    { key: 'settingsInvoice', defaultLabel: 'Pengaturan Invoice', icon: 'fa-solid fa-file-invoice' },
+                    { key: 'settingsFinance', defaultLabel: 'Pengaturan Keuangan', icon: 'fa-solid fa-coins' },
+                    { key: 'settingsUI', defaultLabel: 'Tampilan & Toolbar', icon: 'fa-solid fa-palette' }
+                ],
+
+                visibleNavItems: [],
+
+                navLabels: {
+                    invoice: 'Buat Invoice',
+                    customers: 'Data Pelanggan',
+                    products: 'Master Produk',
+                    history: 'Riwayat Invoice',
+                    finance: 'Rekap Keuangan',
+                    settingsInvoice: 'Pengaturan Invoice',
+                    settingsFinance: 'Pengaturan Keuangan',
+                    settingsUI: 'Tampilan & Toolbar'
+                },
+
+                themePresets: {
+                    classic: { name: 'Classic Amber', headerBg: '#0f172a', headerText: '#ffffff', accent: '#f59e0b', accentHover: '#d97706', accentText: '#0f172a' },
+                    indigo: { name: 'Modern Indigo', headerBg: '#1e1b4b', headerText: '#ffffff', accent: '#6366f1', accentHover: '#4f46e5', accentText: '#ffffff' },
+                    emerald: { name: 'Emerald Green', headerBg: '#064e3b', headerText: '#ffffff', accent: '#10b981', accentHover: '#059669', accentText: '#ffffff' },
+                    ocean: { name: 'Ocean Blue', headerBg: '#0c4a6e', headerText: '#ffffff', accent: '#0284c7', accentHover: '#0369a1', accentText: '#ffffff' },
+                    midnight: { name: 'Midnight Gold', headerBg: '#090d16', headerText: '#ffffff', accent: '#d97706', accentHover: '#b45309', accentText: '#ffffff' },
+                    crimson: { name: 'Crimson Red', headerBg: '#450a0a', headerText: '#ffffff', accent: '#e11d48', accentHover: '#be123c', accentText: '#ffffff' }
+                },
+
+                settings: {
+                    companyName: "SLWT.INC",
+                    companyTagline: "Konveksi & Custom Apparel Specialist",
+                    logoText: "SLWT",
+                    appNameText: "ENTERPRISE",
+                    logoImg: "",
+                    signerName: "ARFIANE",
+                    sigImg: "",
+                    signerAlign: "right",
+                    signerMarginRight: 0,
+                    invFontSize: 12,
+                    invSpacing: "compact",
+                    statusNotaPosition: "top-right",
+                    bankAccounts: "BCA : 2800705633 a.n ARFIANE\nMANDIRI : 138002194821 a.n SLWT GROUP",
+                    invMode: "auto",
+                    invPrefix: "INV/SLWT/2026/",
+                    invCounter: 421,
+                    toolbarPos: "top",
+                    themeKey: "classic",
+                    defaultNotes: "Terima kasih atas kepercayaan Anda bermitra dengan kami."
+                },
+
+                financeSettings: {
+                    storeName: "SLWT.INC",
+                    password: "slwt123",
+                    chartType: "bar",
+                    excelFilename: "Laporan_Keuangan_SLWT.xlsx",
+                    labels: {
+                        income: "Total Pemasukan",
+                        expense: "Total Pengeluaran",
+                        balance: "Saldo Kas Akhir"
+                    }
+                },
+
+                customersList: [
+                    { id: 1, name: "PMB UMPP", phone: "08123456789", address: "Jl. Raya Pekajangan, Pekalongan", orderDate: "2026-04-01", productOrdered: "POUCH CUSTOM\nQty: 500 pcs", notes: "DP 50% Sudah Masuk" }
+                ],
+
+                products: [
+                    { id: 1, name: "POUCH CUSTOM", desc: "- Custom design canvas premium\n- Full color print", price: 13500 },
+                    { id: 2, name: "TOTE BAG CANVAS", desc: "- Ukuran 30x40cm\n- Resleting & furing", price: 25000 },
+                    { id: 3, name: "ONGKOS KIRIM EXPRESS", desc: "- Layanan pengiriman cepat cargo", price: 100000 }
+                ],
+
+                historyList: [],
+
+                financeList: [
+                    { id: 1, name: "Penjualan Pouch Batch 1", type: "Masuk", store: "SLWT.INC", amount: 6750000, date: "2026-04-01", photo: "" },
+                    { id: 2, name: "Pembelian Bahan Kain Canvas", type: "Keluar", store: "SLWT.INC", amount: 2500000, date: "2026-04-02", photo: "" }
+                ],
+
+                currentInvoice: {
+                    status: "LUNAS",
+                    number: "INV/SLWT/2026/0421",
+                    date: "",
+                    custName: "PMB UMPP",
+                    custAddress: "Jl. Raya Pekajangan, Pekalongan",
+                    items: [
+                        { desc: "POUCH CUSTOM\n- Custom design logo", qty: 500, price: 13500 }
+                    ],
+                    discount: 0,
+                    dp: 0,
+                    notes: "Harap melampirkan bukti transfer saat konfirmasi."
+                },
+
+                finForm: { name: "", type: "Masuk", store: "SLWT.INC", amount: 0, date: "", photo: "" },
+                editFinForm: { id: null, name: "", type: "Masuk", store: "SLWT.INC", amount: 0, date: "", photo: "" },
+                chartInstance: null,
+
+                init() {
+                    this.visibleNavItems = JSON.parse(JSON.stringify(this.defaultNavItems));
+                    this.loadStorage();
+
+                    if (!this.currentInvoice.date) {
+                        this.currentInvoice.date = this.getTodayDate();
+                    }
+                    if (!this.finForm.date) {
+                        this.finForm.date = this.getTodayDate();
+                    }
+
+                    setTimeout(() => {
+                        this.renderChart();
+                    }, 300);
+                },
+
+                getStatusNotaStyle() {
+                    const pos = this.settings.statusNotaPosition || 'top-right';
+                    const styles = {
+                        'top-left': { top: '24px', left: '24px', right: 'auto', bottom: 'auto', transform: 'rotate(-15deg)' },
+                        'top-center': { top: '24px', left: '50%', right: 'auto', bottom: 'auto', transform: 'translateX(-50%) rotate(-15deg)' },
+                        'top-right': { top: '24px', left: 'auto', right: '32px', bottom: 'auto', transform: 'rotate(-15deg)' },
+                        'middle-left': { top: '50%', left: '24px', right: 'auto', bottom: 'auto', transform: 'translateY(-50%) rotate(-15deg)' },
+                        'middle-center': { top: '50%', left: '50%', right: 'auto', bottom: 'auto', transform: 'translate(-50%, -50%) rotate(-15deg)' },
+                        'middle-right': { top: '50%', left: 'auto', right: '32px', bottom: 'auto', transform: 'translateY(-50%) rotate(-15deg)' },
+                        'bottom-left': { top: 'auto', left: '24px', right: 'auto', bottom: '24px', transform: 'rotate(-15deg)' },
+                        'bottom-center': { top: 'auto', left: '50%', right: 'auto', bottom: '24px', transform: 'translateX(-50%) rotate(-15deg)' },
+                        'bottom-right': { top: 'auto', left: 'auto', right: '32px', bottom: '24px', transform: 'rotate(-15deg)' }
+                    };
+                    return styles[pos] || styles['top-right'];
+                },
+
+                getTodayDate() {
+                    const today = new Date();
+                    const y = today.getFullYear();
+                    const m = String(today.getMonth() + 1).padStart(2, '0');
+                    const d = String(today.getDate()).padStart(2, '0');
+                    return `${y}-${m}-${d}`;
+                },
+
+                formatWhatsAppNumber(phone) {
+                    if (!phone) return '';
+                    let clean = phone.replace(/[^0-9]/g, '');
+                    if (clean.startsWith('0')) {
+                        clean = '62' + clean.slice(1);
+                    }
+                    return clean;
+                },
+
+                get filteredFinanceList() {
+                    if (!this.selectedMonth) return this.financeList;
+                    return this.financeList.filter(i => i.date && i.date.startsWith(this.selectedMonth));
+                },
+
+                get filteredCustomers() {
+                    if (!this.customerSearchQuery) return this.customersList;
+                    const q = this.customerSearchQuery.toLowerCase();
+                    return this.customersList.filter(c => 
+                        (c.name && c.name.toLowerCase().includes(q)) || 
+                        (c.phone && c.phone.includes(q)) ||
+                        (c.address && c.address.toLowerCase().includes(q)) ||
+                        (c.productOrdered && c.productOrdered.toLowerCase().includes(q))
+                    );
+                },
+
+                countCustomerOrdersThisMonth() {
+                    const currentMonth = this.getTodayDate().slice(0, 7);
+                    return this.customersList.filter(c => c.orderDate && c.orderDate.startsWith(currentMonth)).length;
+                },
+
+                get totalMasuk() {
+                    return this.filteredFinanceList.filter(i => i.type === 'Masuk').reduce((acc, i) => acc + (Number(i.amount) || 0), 0);
+                },
+
+                get totalKeluar() {
+                    return this.filteredFinanceList.filter(i => i.type === 'Keluar').reduce((acc, i) => acc + (Number(i.amount) || 0), 0);
+                },
+
+                openMetricModal(type) {
+                    this.selectedMetricType = type;
+                    this.metricModalOpen = true;
+                },
+
+                getMetricItems() {
+                    if (this.selectedMetricType === 'Masuk') {
+                        return this.filteredFinanceList.filter(i => i.type === 'Masuk');
+                    } else if (this.selectedMetricType === 'Keluar') {
+                        return this.filteredFinanceList.filter(i => i.type === 'Keluar');
+                    }
+                    return this.filteredFinanceList;
+                },
+
+                getMetricTotal() {
+                    if (this.selectedMetricType === 'Masuk') return this.totalMasuk;
+                    if (this.selectedMetricType === 'Keluar') return this.totalKeluar;
+                    return this.totalMasuk - this.totalKeluar;
+                },
+
+                openCustomerModal() {
+                    this.editingCustomerId = null;
+                    this.custForm = { name: '', phone: '', address: '', orderDate: this.getTodayDate(), productOrdered: '', notes: '' };
+                    this.customerModalOpen = true;
+                },
+
+                editCustomer(c) {
+                    this.editingCustomerId = c.id;
+                    this.custForm = { name: c.name || '', phone: c.phone || '', address: c.address || '', orderDate: c.orderDate || this.getTodayDate(), productOrdered: c.productOrdered || '', notes: c.notes || '' };
+                    this.customerModalOpen = true;
+                },
+
+                saveCustomerForm() {
+                    if (!this.custForm.name) return;
+                    if (this.editingCustomerId) {
+                        const idx = this.customersList.findIndex(c => c.id === this.editingCustomerId);
+                        if (idx >= 0) {
+                            this.customersList[idx] = { id: this.editingCustomerId, ...this.custForm };
+                        }
+                    } else {
+                        const newId = this.customersList.length > 0 ? Math.max(...this.customersList.map(c => c.id)) + 1 : 1;
+                        this.customersList.unshift({ id: newId, ...this.custForm });
+                    }
+                    this.customerModalOpen = false;
+                    this.saveStorage();
+                    this.showToast("Data Pelanggan berhasil disimpan!");
+                },
+
+                deleteCustomer(id) {
+                    if (confirm("Hapus data pelanggan ini?")) {
+                        this.customersList = this.customersList.filter(c => c.id !== id);
+                        this.saveStorage();
+                        this.showToast("Data pelanggan dihapus.");
+                    }
+                },
+
+                exportCustomersExcel() {
+                    const exportData = this.filteredCustomers.map(c => ({
+                        "Nama Pelanggan": c.name,
+                        "No HP": c.phone || "-",
+                        "Alamat": c.address || "-",
+                        "Tanggal Pemesanan": c.orderDate || "-",
+                        "Produk Dipesan": c.productOrdered || "-",
+                        "Catatan": c.notes || "-"
+                    }));
+
+                    const ws = XLSX.utils.json_to_sheet(exportData);
+                    const wb = XLSX.utils.book_new();
+                    XLSX.utils.book_append_sheet(wb, ws, "Data Pelanggan");
+                    XLSX.writeFile(wb, `Data_Pelanggan_${this.settings.companyName || 'SLWT'}_${this.getTodayDate()}.xlsx`);
+                    this.showToast("File Excel Data Pelanggan berhasil diunduh!");
+                },
+
+                exportCustomersOnlyJSON() {
+                    const db = {
+                        dataType: "customers_only",
+                        storeName: this.settings.companyName || "SLWT.INC",
+                        exportDate: new Date().toISOString(),
+                        customers: this.customersList
+                    };
+                    const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(db, null, 2));
+                    const a = document.createElement('a');
+                    a.href = dataStr;
+                    a.download = `backup_data_pelanggan_${(this.settings.companyName || 'slwt').toLowerCase().replace(/[^a-z0-9]+/g, '_')}_${new Date().toISOString().split('T')[0]}.json`;
+                    document.body.appendChild(a);
+                    a.click();
+                    a.remove();
+                    this.showToast("Backup data pelanggan berhasil diunduh!");
+                },
+
+                importCustomersOnlyJSON(event) {
+                    const file = event.target.files && event.target.files[0];
+                    if (!file) return;
+
+                    const reader = new FileReader();
+                    reader.onload = (e) => {
+                        try {
+                            const data = JSON.parse(e.target.result);
+                            if (Array.isArray(data)) {
+                                this.customersList = data;
+                                this.saveStorage();
+                                this.showToast("Database pelanggan dipulihkan!");
+                            } else if (data && Array.isArray(data.customers)) {
+                                this.customersList = data.customers;
+                                this.saveStorage();
+                                this.showToast("Database pelanggan dipulihkan!");
+                            } else {
+                                this.showToast("Format JSON pelanggan tidak valid!", "error");
+                            }
+                        } catch (err) {
+                            this.showToast("Gagal membaca file JSON!", "error");
+                        } finally {
+                            event.target.value = '';
+                        }
+                    };
+                    reader.readAsText(file);
+                },
+
+                useCustomerInInvoice(c) {
+                    this.currentInvoice.custName = c.name || '';
+                    this.currentInvoice.custAddress = (c.address || '') + (c.phone ? '\nKontak: ' + c.phone : '');
+                    this.currentTab = 'invoice';
+                    this.triggerAutosave();
+                    this.showToast(`Data ${c.name} dimasukkan ke Invoice!`);
+                },
+
+                moveNavItem(idx, dir) {
+                    const targetIdx = idx + dir;
+                    if (targetIdx < 0 || targetIdx >= this.visibleNavItems.length) return;
+                    
+                    const temp = this.visibleNavItems[idx];
+                    this.visibleNavItems[idx] = this.visibleNavItems[targetIdx];
+                    this.visibleNavItems[targetIdx] = temp;
+                    
+                    this.saveStorage();
+                    this.showToast("Urutan toolbar navigasi digeser!");
+                },
+
+                addNewCustomNavItem() {
+                    const name = prompt("Masukkan nama menu navigasi baru:");
+                    if (!name) return;
+                    
+                    const newKey = "custom_" + Date.now();
+                    this.visibleNavItems.push({
+                        key: newKey,
+                        defaultLabel: name,
+                        icon: "fa-solid fa-star"
+                    });
+                    this.navLabels[newKey] = name;
+                    this.saveStorage();
+                    this.showToast("Menu baru ditambahkan!");
+                },
+
+                deleteNavItem(idx) {
+                    if (this.visibleNavItems.length <= 1) {
+                        this.showToast("Minimal harus ada 1 menu navigasi!", "error");
+                        return;
+                    }
+                    if (confirm("Hapus menu navigasi ini dari toolbar?")) {
+                        this.visibleNavItems.splice(idx, 1);
+                        this.saveStorage();
+                        this.showToast("Menu navigasi dihapus dari toolbar.");
+                    }
+                },
+
+                resetNavOrder() {
+                    this.visibleNavItems = JSON.parse(JSON.stringify(this.defaultNavItems));
+                    this.saveStorage();
+                    this.showToast("Urutan toolbar dikembalikan ke default!");
+                },
+
+                resetAllData() {
+                    if (confirm("YAKIN INGIN MENGHAPUS SELURUH DATA APLIKASI?\nData invoice, pelanggan, riwayat, dan transaksi kas akan dibersihkan permanen.")) {
+                        try { window.SLWT.storage.clear(); } catch (e) {}
+                        this.showToast("Seluruh data telah dihapus!");
+                        setTimeout(() => {
+                            window.location.reload();
+                        }, 800);
+                    }
+                },
+
+                getThemeStyles() {
+                    const t = this.themePresets[this.settings.themeKey] || this.themePresets.classic;
+                    return `
+                        --theme-header-bg: ${t.headerBg};
+                        --theme-header-text: ${t.headerText};
+                        --theme-accent: ${t.accent};
+                        --theme-accent-hover: ${t.accentHover};
+                        --theme-accent-text: ${t.accentText};
+                        --theme-nav-active-bg: ${t.accent};
+                        --theme-nav-active-text: ${t.accentText};
+                        --theme-border-accent: ${t.accent};
+                    `;
+                },
+
+                switchTab(tab) {
+                    const allowedTabs = ['invoice','customers','products','history','finance','settingsInvoice','settingsFinance','settingsUI'];
+                    if (!allowedTabs.includes(tab)) return;
+                    this.currentTab = tab;
+                    if (tab === 'customers') {
+                        // Force a valid array for the customer view even if old storage was malformed.
+                        if (!Array.isArray(this.customersList)) this.customersList = [];
+                        this.$nextTick(() => {
+                            this.customerSearchQuery = this.customerSearchQuery || '';
+                        });
+                    }
+                    if (tab === 'finance') {
+                        this.$nextTick(() => this.renderChart());
+                    }
+                },
+
+                formatRupiah(num) {
+                    return "Rp " + (Number(num) || 0).toLocaleString('id-ID');
+                },
+
+                calculateSubtotal() {
+                    return this.currentInvoice.items.reduce((acc, i) => acc + ((Number(i.qty) || 0) * (Number(i.price) || 0)), 0);
+                },
+
+                calculateTotal() {
+                    let tot = this.calculateSubtotal() - (Number(this.currentInvoice.discount) || 0);
+                    return tot < 0 ? 0 : tot;
+                },
+
+                calculateRemaining() {
+                    let rem = this.calculateTotal() - (Number(this.currentInvoice.dp) || 0);
+                    return rem < 0 ? 0 : rem;
+                },
+
+                calculateInvoiceTotalNett(inv) {
+                    if (!inv || !inv.items) return 0;
+                    const sub = inv.items.reduce((acc, i) => acc + ((Number(i.qty) || 0) * (Number(i.price) || 0)), 0);
+                    const tot = sub - (Number(inv.discount) || 0);
+                    return tot < 0 ? 0 : tot;
+                },
+
+                createNewInvoice() {
+                    let invNum = "";
+                    if (this.settings.invMode === 'auto') {
+                        const counterStr = String(this.settings.invCounter).padStart(4, '0');
+                        invNum = `${this.settings.invPrefix}${counterStr}`;
+                        this.settings.invCounter++;
+                        this.saveStorage();
+                    } else {
+                        const rnd = Math.floor(1000 + Math.random() * 9000);
+                        invNum = "INV/SLWT/" + new Date().getFullYear() + "/" + rnd;
+                    }
+
+                    this.currentInvoice = {
+                        status: "BELUM LUNAS",
+                        number: invNum,
+                        date: this.getTodayDate(),
+                        custName: "",
+                        custAddress: "",
+                        items: [{ desc: "Item Baru", qty: 1, price: 0 }],
+                        discount: 0,
+                        dp: 0,
+                        notes: this.settings.defaultNotes || ""
+                    };
+                    this.showToast("Nota invoice baru dibuat!");
+                    this.triggerAutosave();
+                },
+
+                addItemRow() {
+                    this.currentInvoice.items.push({ desc: "", qty: 1, price: 0 });
+                    this.triggerAutosave();
+                },
+
+                removeInvoiceItem(idx) {
+                    if (this.currentInvoice.items.length === 1) {
+                        this.showToast("Minimal harus ada 1 item!", "error");
+                        return;
+                    }
+                    this.currentInvoice.items.splice(idx, 1);
+                    this.triggerAutosave();
+                },
+
+                openProductPicker() {
+                    this.productModalOpen = true;
+                },
+
+                addSelectedProduct(p) {
+                    this.currentInvoice.items.push({
+                        desc: p.name + (p.desc ? "\n" + p.desc : ""),
+                        qty: 1,
+                        price: p.price
+                    });
+                    this.productModalOpen = false;
+                    this.triggerAutosave();
+                    this.showToast("Produk ditambahkan ke invoice.");
+                },
+
+                uploadImage(event, targetProp) {
+                    const file = event.target.files && event.target.files[0];
+                    if (!file) return;
+
+                    if (file.size > 3 * 1024 * 1024) {
+                        this.showToast("Ukuran file maksimal 3MB!", "error");
+                        return;
+                    }
+
+                    const reader = new FileReader();
+                    reader.onload = (e) => {
+                        this.settings[targetProp] = e.target.result;
+                        this.saveStorage();
+                        this.showToast("Gambar berhasil diupload!");
+                    };
+                    reader.readAsDataURL(file);
+                },
+
+                uploadTransactionPhoto(event, target = 'form') {
+                    const file = event.target.files && event.target.files[0];
+                    if (!file) return;
+
+                    if (file.size > 3 * 1024 * 1024) {
+                        this.showToast("Ukuran foto maksimal 3MB!", "error");
+                        return;
+                    }
+
+                    const reader = new FileReader();
+                    reader.onload = (e) => {
+                        if (target === 'edit') {
+                            this.editFinForm.photo = e.target.result;
+                        } else {
+                            this.finForm.photo = e.target.result;
+                        }
+                        this.showToast("Foto bukti terlampir!");
+                    };
+                    reader.readAsDataURL(file);
+                },
+
+                openProductModal() {
+                    this.editingProductId = null;
+                    this.productForm = { name: '', desc: '', price: 0 };
+                    this.productCrudModalOpen = true;
+                },
+
+                editProduct(p) {
+                    this.editingProductId = p.id;
+                    this.productForm = { name: p.name, desc: p.desc, price: p.price };
+                    this.productCrudModalOpen = true;
+                },
+
+                saveProductForm() {
+                    if (this.editingProductId) {
+                        const idx = this.products.findIndex(p => p.id === this.editingProductId);
+                        if (idx >= 0) {
+                            this.products[idx] = { id: this.editingProductId, ...this.productForm };
+                        }
+                    } else {
+                        const newId = this.products.length > 0 ? Math.max(...this.products.map(p => p.id)) + 1 : 1;
+                        this.products.push({ id: newId, ...this.productForm });
+                    }
+                    this.productCrudModalOpen = false;
+                    this.saveStorage();
+                    this.showToast("Master Produk disimpan!");
+                },
+
+                deleteProduct(id) {
+                    if (confirm("Hapus produk ini dari master?")) {
+                        this.products = this.products.filter(p => p.id !== id);
+                        this.saveStorage();
+                        this.showToast("Produk dihapus.");
+                    }
+                },
+
+                saveCurrentInvoiceToHistory() {
+                    if (!this.currentInvoice.number) {
+                        this.showToast("Nomor invoice wajib diisi!", "error");
+                        return;
+                    }
+                    const idx = this.historyList.findIndex(h => h.number === this.currentInvoice.number);
+                    const copy = JSON.parse(JSON.stringify(this.currentInvoice));
+                    if (idx >= 0) {
+                        this.historyList[idx] = copy;
+                    } else {
+                        this.historyList.unshift(copy);
+                    }
+                    this.saveStorage();
+                    this.showToast("Invoice disimpan ke riwayat!");
+                },
+
+                loadInvoice(inv) {
+                    this.currentInvoice = JSON.parse(JSON.stringify(inv));
+                    this.currentTab = 'invoice';
+                    this.showToast("Invoice dimuat.");
+                },
+
+                deleteHistory(num) {
+                    if (confirm("Hapus invoice ini dari riwayat?")) {
+                        this.historyList = this.historyList.filter(h => h.number !== num);
+                        this.saveStorage();
+                        this.showToast("Riwayat dihapus.");
+                    }
+                },
+
+                addFinanceTransaction() {
+                    if (!this.finForm.name || !this.finForm.amount) return;
+                    if (!this.finForm.date) this.finForm.date = this.getTodayDate();
+
+                    const newId = this.financeList.length > 0 ? Math.max(...this.financeList.map(i => i.id)) + 1 : 1;
+                    this.financeList.unshift({ id: newId, ...this.finForm });
+                    this.finForm.name = "";
+                    this.finForm.amount = 0;
+                    this.finForm.photo = "";
+                    this.finForm.date = this.getTodayDate();
+                    this.saveStorage();
+                    this.renderChart();
+                    this.showToast("Transaksi kas dicatat.");
+                },
+
+                openEditTransactionModal(item) {
+                    this.editFinForm = JSON.parse(JSON.stringify(item));
+                    this.editTransactionModalOpen = true;
+                },
+
+                updateFinanceTransaction() {
+                    const idx = this.financeList.findIndex(f => f.id === this.editFinForm.id);
+                    if (idx >= 0) {
+                        this.financeList[idx] = JSON.parse(JSON.stringify(this.editFinForm));
+                        this.saveStorage();
+                        this.renderChart();
+                        this.showToast("Transaksi diperbarui!");
+                    }
+                    this.editTransactionModalOpen = false;
+                },
+
+                deleteFinance(id) {
+                    if (confirm("Hapus transaksi kas ini?")) {
+                        this.financeList = this.financeList.filter(i => i.id !== id);
+                        this.saveStorage();
+                        this.renderChart();
+                        this.showToast("Transaksi kas dihapus.");
+                    }
+                },
+
+                previewPhoto(src) {
+                    this.activePhotoSrc = src;
+                    this.photoPreviewModalOpen = true;
+                },
+
+                openCompanyReportModal() {
+                    this.companyReportModalOpen = true;
+                },
+
+                downloadCompanyReportPDF() {
+                    const content = document.getElementById('company-report-view').innerHTML;
+                    const printWin = window.open('', '_blank');
+                    printWin.document.write(`
+                        <!DOCTYPE html>
+                        <html>
+                        <head>
+                            <title>Laporan Perusahaan - ${this.settings.companyName}</title>
+                            <script src="https://cdn.tailwindcss.com"><` + `/script>
+                            <style>
+                                @page { size: A4 portrait; margin: 10mm; }
+                                body { font-family: 'Inter', sans-serif; background: white; color: #1e293b; padding: 10px; }
+                            </style>
+                        </head>
+                        <body onload="window.print(); setTimeout(() => window.close(), 500);">
+                            ${content}
+                        </body>
+                        </html>
+                    `);
+                    printWin.document.close();
+                    this.showToast("Jendela PDF A4 siap dicetak!");
+                },
+
+                downloadCompanyReportXLSX() {
+                    const table = document.getElementById('company-report-table');
+                    if (!table) return;
+                    
+                    const wb = XLSX.utils.table_to_sheet(table);
+                    const book = XLSX.utils.book_new();
+                    XLSX.utils.book_append_sheet(book, wb, "Laporan Perusahaan");
+                    
+                    const periodName = this.selectedMonth ? this.selectedMonth : "Semua_Periode";
+                    XLSX.writeFile(book, `Laporan_Perusahaan_${this.settings.companyName}_${periodName}.xlsx`);
+                    this.showToast("Laporan Excel (.xlsx) berhasil diunduh!");
+                },
+
+                downloadCompanyReportHTML() {
+                    const content = document.getElementById('company-report-view').innerHTML;
+                    const fullHtml = '<!DOCTYPE html><html><head><meta charset="utf-8"><title>Laporan Keuangan</title><script src="https://cdn.tailwindcss.com"><' + '/script></head><body class="p-8 bg-slate-100">' + content + '</body></html>';
+                    
+                    const blob = new Blob([fullHtml], { type: 'text/html;charset=utf-8' });
+                    const url = URL.createObjectURL(blob);
+                    const a = document.createElement('a');
+                    a.href = url;
+                    a.download = `Laporan_Perusahaan_${this.settings.companyName}_${this.selectedMonth || 'Semua'}.html`;
+                    document.body.appendChild(a);
+                    a.click();
+                    a.remove();
+                    URL.revokeObjectURL(url);
+                    this.showToast("Laporan HTML diunduh!");
+                },
+
+                renderChart() {
+                    const ctx = document.getElementById('financeChart');
+                    if (!ctx || typeof window.Chart === 'undefined') return;
+
+                    if (this.chartInstance) {
+                        this.chartInstance.destroy();
+                    }
+
+                    const theme = this.themePresets[this.settings.themeKey] || this.themePresets.classic;
+                    const type = this.financeSettings.chartType || 'bar';
+                    const isRadial = ['doughnut', 'pie', 'polarArea', 'radar'].includes(type);
+
+                    this.chartInstance = new Chart(ctx, {
+                        type: type,
+                        data: {
+                            labels: ['Pemasukan', 'Pengeluaran', 'Saldo Kas Akhir'],
+                            datasets: [{
+                                label: 'Nominal (Rp)',
+                                data: [
+                                    this.totalMasuk, 
+                                    this.totalKeluar, 
+                                    this.totalMasuk - this.totalKeluar
+                                ],
+                                backgroundColor: ['#10b981', '#f43f5e', theme.accent],
+                                borderColor: ['#059669', '#e11d48', theme.accentHover],
+                                borderWidth: 2,
+                                borderRadius: isRadial ? 0 : 8
+                            }]
+                        },
+                        options: {
+                            responsive: true,
+                            maintainAspectRatio: false,
+                            plugins: { 
+                                legend: { display: isRadial } 
+                            },
+                            scales: isRadial ? {} : {
+                                y: {
+                                    ticks: {
+                                        callback: (value) => 'Rp ' + (value / 1000).toLocaleString('id-ID') + 'k'
+                                    }
+                                }
+                            }
+                        }
+                    });
+                },
+
+                downloadCSV() {
+                    let csv = "Tanggal,Keterangan,Toko,Jenis,Jumlah\r\n";
+                    this.filteredFinanceList.forEach(item => {
+                        csv += `"${item.date}","${item.name}","${item.store || ''}","${item.type}",${item.amount}\r\n`;
+                    });
+                    const encoded = encodeURI("data:text/csv;charset=utf-8," + csv);
+                    const a = document.createElement('a');
+                    a.href = encoded;
+                    a.download = `Rekap_Keuangan_${this.settings.companyName}_${this.selectedMonth || 'Semua'}.csv`;
+                    document.body.appendChild(a);
+                    a.click();
+                    a.remove();
+                    this.showToast("File CSV diunduh!");
+                },
+
+                downloadExcelReport() {
+                    const data = this.filteredFinanceList.map(item => ({
+                        "Tanggal": item.date,
+                        "Keterangan": item.name,
+                        "Toko / Sumber": item.store || "-",
+                        "Jenis Arus Kas": item.type,
+                        "Jumlah (Rp)": item.amount,
+                        "Ada Bukti Foto": item.photo ? "YA" : "TIDAK"
+                    }));
+
+                    const ws = XLSX.utils.json_to_sheet(data);
+                    const wb = XLSX.utils.book_new();
+                    XLSX.utils.book_append_sheet(wb, ws, "Arus Kas");
+                    
+                    const filename = this.financeSettings.excelFilename || "Laporan_Keuangan_SLWT.xlsx";
+                    XLSX.writeFile(wb, filename.endsWith('.xlsx') ? filename : filename + '.xlsx');
+                    this.showToast("File Excel diunduh!");
+                },
+
+                exportFinanceOnlyJSON() {
+                    const db = {
+                        dataType: "transactions_only",
+                        storeName: this.settings.companyName || "SLWT.INC",
+                        exportDate: new Date().toISOString(),
+                        selectedMonthFilter: this.selectedMonth,
+                        transactions: this.filteredFinanceList
+                    };
+                    const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(db, null, 2));
+                    const a = document.createElement('a');
+                    a.href = dataStr;
+                    a.download = `backup_transaksi_kas_${(this.settings.companyName || 'slwt').toLowerCase().replace(/[^a-z0-9]+/g, '_')}_${new Date().toISOString().split('T')[0]}.json`;
+                    document.body.appendChild(a);
+                    a.click();
+                    a.remove();
+                    this.showToast("Backup transaksi kas berhasil diunduh!");
+                },
+
+                exportJSONBackup() {
+                    const db = {
+                        settings: this.settings,
+                        financeSettings: this.financeSettings,
+                        navLabels: this.navLabels,
+                        visibleNavItems: this.visibleNavItems,
+                        selectedMonth: this.selectedMonth,
+                        customersList: this.customersList,
+                        products: this.products,
+                        historyList: this.historyList,
+                        financeList: this.financeList
+                    };
+                    const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(db, null, 2));
+                    const a = document.createElement('a');
+                    a.href = dataStr;
+                    a.download = `backup_slwt_enterprise_${new Date().toISOString().split('T')[0]}.json`;
+                    document.body.appendChild(a);
+                    a.click();
+                    a.remove();
+                    this.showToast("Backup JSON berhasil diunduh!");
+                },
+
+                importJSONBackup(event) {
+                    const file = event.target.files && event.target.files[0];
+                    if (!file) return;
+
+                    const reader = new FileReader();
+                    reader.onload = (e) => {
+                        try {
+                            const db = JSON.parse(e.target.result);
+                            let restored = false;
+
+                            if (Array.isArray(db)) {
+                                this.financeList = db;
+                                restored = true;
+                            } 
+                            else if (typeof db === 'object' && db !== null) {
+                                if (Array.isArray(db.financeList)) {
+                                    this.financeList = db.financeList;
+                                    restored = true;
+                                } else if (Array.isArray(db.transactions)) {
+                                    this.financeList = db.transactions;
+                                    restored = true;
+                                }
+
+                                if (Array.isArray(db.customers)) {
+                                    this.customersList = db.customers;
+                                    restored = true;
+                                }
+
+                                if (db.settings) {
+                                    this.settings = Object.assign({}, this.settings, db.settings);
+                                    restored = true;
+                                }
+                                if (db.financeSettings) {
+                                    this.financeSettings = Object.assign({}, this.financeSettings, db.financeSettings);
+                                    restored = true;
+                                }
+                                if (db.selectedMonth !== undefined) {
+                                    this.selectedMonth = db.selectedMonth;
+                                }
+                                if (db.navLabels) {
+                                    this.navLabels = Object.assign({}, this.navLabels, db.navLabels);
+                                    restored = true;
+                                }
+                                if (Array.isArray(db.visibleNavItems)) {
+                                    this.visibleNavItems = db.visibleNavItems;
+                                    restored = true;
+                                }
+                                if (Array.isArray(db.customersList)) {
+                                    this.customersList = db.customersList;
+                                    restored = true;
+                                }
+                                if (Array.isArray(db.products)) {
+                                    this.products = db.products;
+                                    restored = true;
+                                }
+                                if (Array.isArray(db.historyList)) {
+                                    this.historyList = db.historyList;
+                                    restored = true;
+                                }
+                            }
+
+                            if (restored) {
+                                this.saveStorage();
+                                this.renderChart();
+                                this.showToast("Backup JSON berhasil dipulihkan!");
+                            } else {
+                                this.showToast("Format file JSON tidak dikenali!", "error");
+                            }
+                        } catch (err) {
+                            console.error(err);
+                            this.showToast("File JSON tidak valid!", "error");
+                        } finally {
+                            event.target.value = '';
+                        }
+                    };
+                    reader.readAsText(file);
+                },
+
+                saveSettings() {
+                    this.saveStorage();
+                },
+
+                triggerAutosave() {
+                    this.saveStorage();
+                },
+
+                saveStorage() {
+                    const storage = window.SLWT.storage;
+                    const write = (key, value) => { try { storage.setItem(key, JSON.stringify(value)); } catch (e) { console.warn('SLWT storage write failed:', key, e); } };
+                    write('slwt_unified_settings', this.settings);
+                    write('slwt_unified_fin_settings', this.financeSettings);
+                    try { storage.setItem('slwt_unified_month', this.selectedMonth || ''); } catch (e) {}
+                    write('slwt_unified_navlabels', this.navLabels);
+                    write('slwt_unified_navitems', this.visibleNavItems);
+                    write('slwt_unified_customers', this.customersList);
+                    write('slwt_unified_products', this.products);
+                    write('slwt_unified_history', this.historyList);
+                    write('slwt_unified_finance', this.financeList);
+                    write('slwt_unified_invoice', this.currentInvoice);
+                },
+
+                loadStorage() {
+                    const storage = window.SLWT.storage;
+                    const readJSON = (key, fallback) => {
+                        try {
+                            const raw = storage.getItem(key);
+                            if (raw === null || raw === '') return fallback;
+                            const parsed = JSON.parse(raw);
+                            return parsed == null ? fallback : parsed;
+                        } catch (e) {
+                            console.warn('SLWT storage read/reset:', key, e);
+                            return fallback;
+                        }
+                    };
+                    const savedSettings = readJSON('slwt_unified_settings', null);
+                    if (savedSettings && typeof savedSettings === 'object') this.settings = Object.assign({}, this.settings, savedSettings);
+                    const savedFinSettings = readJSON('slwt_unified_fin_settings', null);
+                    if (savedFinSettings && typeof savedFinSettings === 'object') this.financeSettings = Object.assign({}, this.financeSettings, savedFinSettings);
+                    try { const month = storage.getItem('slwt_unified_month'); if (month !== null) this.selectedMonth = month; } catch (e) {}
+                    const labels = readJSON('slwt_unified_navlabels', null);
+                    if (labels && typeof labels === 'object') this.navLabels = Object.assign({}, this.navLabels, labels);
+                    const nav = readJSON('slwt_unified_navitems', null);
+                    if (Array.isArray(nav) && nav.length) this.visibleNavItems = nav;
+
+                    // Repair old/corrupt navigation settings so core menus can never disappear.
+                    // This is especially important when an older browser/localStorage entry
+                    // contains a partial nav list.
+                    const coreKeys = ['invoice','customers','products','history','finance','settingsInvoice','settingsFinance','settingsUI'];
+                    const existingKeys = new Set((Array.isArray(this.visibleNavItems) ? this.visibleNavItems : []).map(item => item && item.key));
+                    this.defaultNavItems.forEach(item => {
+                        if (!existingKeys.has(item.key)) this.visibleNavItems.push(Object.assign({}, item));
+                    });
+                    this.visibleNavItems = this.visibleNavItems.filter(item => item && item.key);
+
+                    const customers = readJSON('slwt_unified_customers', null);
+                    if (Array.isArray(customers)) this.customersList = customers;
+                    const products = readJSON('slwt_unified_products', null);
+                    if (Array.isArray(products)) this.products = products;
+                    const history = readJSON('slwt_unified_history', null);
+                    if (Array.isArray(history)) this.historyList = history;
+                    const finance = readJSON('slwt_unified_finance', null);
+                    if (Array.isArray(finance)) this.financeList = finance;
+                    const invoice = readJSON('slwt_unified_invoice', null);
+                    if (invoice && typeof invoice === 'object') this.currentInvoice = Object.assign({}, this.currentInvoice, invoice);
+                },
+
+                showToast(msg, type = "success") {
+                    const toast = document.getElementById('toast');
+                    const msgEl = document.getElementById('toast-msg');
+                    const iconEl = document.getElementById('toast-icon');
+
+                    if (!toast || !msgEl || !iconEl) return;
+
+                    msgEl.innerText = msg;
+                    if (type === "error") {
+                        iconEl.className = "fa-solid fa-circle-exclamation text-rose-400 text-base";
+                    } else {
+                        iconEl.className = "fa-solid fa-circle-check text-emerald-400 text-base";
+                    }
+
+                    toast.classList.remove('translate-y-20', 'opacity-0');
+                    setTimeout(() => {
+                        toast.classList.add('translate-y-20', 'opacity-0');
+                    }, 3000);
+                }
+            }));
+        });
+    </script>
+
+    <!-- Alpine.js CDN -->
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.15.8/dist/cdn.min.js" onerror="this.onerror=null;this.src='https://unpkg.com/alpinejs@3.15.8/dist/cdn.min.js'"></script>
+
+    <style>
+        :root {
+            --theme-header-bg: #0f172a;
+            --theme-header-text: #ffffff;
+            --theme-accent: #f59e0b;
+            --theme-accent-hover: #d97706;
+            --theme-accent-text: #0f172a;
+            --theme-nav-active-bg: #f59e0b;
+            --theme-nav-active-text: #0f172a;
+            --theme-border-accent: #f59e0b;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f1f5f9;
+        }
+
+        .bg-theme-header { background-color: var(--theme-header-bg) !important; }
+        .text-theme-header-text { color: var(--theme-header-text) !important; }
+        .bg-theme-accent { background-color: var(--theme-accent) !important; }
+        .hover\:bg-theme-accent-hover:hover { background-color: var(--theme-accent-hover) !important; }
+        .text-theme-accent { color: var(--theme-accent) !important; }
+        .text-theme-accent-text { color: var(--theme-accent-text) !important; }
+        .border-theme-accent { border-color: var(--theme-border-accent) !important; }
+
+        .nav-btn-active {
+            background-color: var(--theme-nav-active-bg) !important;
+            color: var(--theme-nav-active-text) !important;
+            font-weight: 800 !important;
+            box-shadow: 0 4px 12px -2px rgba(0, 0, 0, 0.15);
+        }
+
+        @media print {
+            @page {
+                size: A4 portrait;
+                margin: 8mm;
+            }
+            .no-print { display: none !important; }
+            body { background: white !important; print-color-adjust: exact; -webkit-print-color-adjust: exact; margin: 0; padding: 0; }
+            .print-shadow { box-shadow: none !important; border: none !important; }
+            #main-container { padding: 0 !important; margin: 0 !important; max-width: 100% !important; width: 100% !important; }
+            #invoice-sheet {
+                width: 100% !important;
+                max-width: 100% !important;
+                border: none !important;
+                box-shadow: none !important;
+                margin: 0 !important;
+            }
+        }
+
+        ::-webkit-scrollbar { width: 6px; height: 6px; }
+        ::-webkit-scrollbar-track { background: #f1f5f9; }
+        ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 4px; }
+        ::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
+        [x-cloak] { display: none !important; }
+        /* Browser-safe fallbacks when utility CSS is blocked or delayed. */
+        .slwt-runtime-warning { display:none; position:fixed; inset:auto 12px 12px 12px; z-index:99999; background:#7f1d1d; color:#fff; padding:12px 14px; border-radius:10px; font:600 13px/1.4 Arial,sans-serif; box-shadow:0 8px 24px rgba(0,0,0,.25); }
+        @media (max-width:640px){.slwt-runtime-warning{font-size:12px;}}
+    </style>
+</head>
+
+<body class="bg-slate-100 text-slate-800 min-h-screen flex flex-col antialiased selection:bg-amber-200 selection:text-amber-900" 
+      x-data="unifiedApp" 
+      :style="getThemeStyles()">
+    <div id="slwt-runtime-warning" class="slwt-runtime-warning" role="alert">Aplikasi sedang memuat komponen. Jika tetap kosong, periksa koneksi internet lalu buka ulang file ini.</div>
+
+
+
+    <div id="main-wrapper" class="min-h-screen flex w-full" 
+         :class="{
+             'flex-col': settings.toolbarPos === 'top' || settings.toolbarPos === 'bottom',
+             'flex-col md:flex-row': settings.toolbarPos === 'left'
+         }">
+
+        <!-- TOOLBAR: TOP STICKY POSITION -->
+        <header x-show="settings.toolbarPos === 'top'" class="bg-theme-header text-theme-header-text shadow-lg no-print sticky top-0 z-50 transition-all duration-300">
+            <div class="max-w-7xl mx-auto px-4 py-3 flex flex-wrap justify-between items-center gap-4">
+                <div class="flex items-center space-x-3">
+                    <div class="bg-theme-accent text-theme-accent-text p-2 rounded-xl font-black text-lg shadow-md flex items-center justify-center min-w-[2.75rem] min-h-[2.75rem]">
+                        <template x-if="settings.logoImg">
+                            <img :src="settings.logoImg" class="w-8 h-8 object-cover rounded-lg">
+                        </template>
+                        <template x-if="!settings.logoImg && settings.logoText">
+                            <span x-text="settings.logoText" class="text-xs font-black tracking-wider uppercase px-1"></span>
+                        </template>
+                        <template x-if="!settings.logoImg && !settings.logoText">
+                            <i class="fa-solid fa-briefcase"></i>
+                        </template>
+                    </div>
+                    <div>
+                        <div class="flex items-center space-x-2">
+                            <h1 class="font-extrabold text-base sm:text-lg tracking-wide leading-tight" x-text="settings.companyName || 'SLWT.INC'"></h1>
+                            <span x-show="settings.appNameText" class="text-[10px] font-black bg-slate-800 text-amber-400 px-2 py-0.5 rounded-md border border-slate-700 tracking-wider uppercase" x-text="settings.appNameText"></span>
+                        </div>
+                        <p x-show="settings.companyTagline" class="text-xs text-slate-300 font-medium" x-text="settings.companyTagline"></p>
+                    </div>
+                </div>
+
+                <!-- Navigation Tabs (Top) -->
+                <nav class="flex flex-wrap space-x-1 bg-slate-800/70 p-1.5 rounded-2xl border border-slate-700/50 backdrop-blur">
+                    <template x-for="tab in visibleNavItems" :key="tab.key">
+                        <button @click="switchTab(tab.key)" 
+                                :class="currentTab === tab.key ? 'nav-btn-active' : 'text-slate-300 hover:text-white hover:bg-slate-700/60'" 
+                                class="px-3.5 py-2 rounded-xl text-xs sm:text-sm font-medium transition-all duration-200 flex items-center space-x-2">
+                            <i :class="tab.icon"></i>
+                            <span x-text="navLabels[tab.key] || tab.defaultLabel"></span>
+                        </button>
+                    </template>
+                </nav>
+
+                <div class="hidden lg:flex items-center space-x-3">
+                    <span class="text-xs text-emerald-400 flex items-center bg-slate-800/80 px-3 py-1.5 rounded-full border border-slate-700 font-medium">
+                        <i class="fa-solid fa-clock mr-1.5 text-emerald-400"></i> <span x-text="getTodayDate()"></span>
+                    </span>
+                </div>
+            </div>
+        </header>
+
+        <!-- TOOLBAR: LEFT SIDEBAR POSITION -->
+        <aside x-show="settings.toolbarPos === 'left'" class="bg-theme-header text-theme-header-text no-print w-full md:w-64 md:min-h-screen shrink-0 shadow-2xl z-50 flex flex-col justify-between transition-all duration-300">
+            <div class="p-4 sm:p-5">
+                <div class="flex items-center space-x-3 pb-5 border-b border-slate-700/60 mb-5">
+                    <div class="bg-theme-accent text-theme-accent-text p-2.5 rounded-xl font-black text-lg shadow-md flex items-center justify-center min-w-[2.75rem] min-h-[2.75rem]">
+                        <template x-if="settings.logoImg">
+                            <img :src="settings.logoImg" class="w-8 h-8 object-cover rounded-lg">
+                        </template>
+                        <template x-if="!settings.logoImg && settings.logoText">
+                            <span x-text="settings.logoText" class="text-xs font-black tracking-wider uppercase px-1"></span>
+                        </template>
+                        <template x-if="!settings.logoImg && !settings.logoText">
+                            <i class="fa-solid fa-briefcase"></i>
+                        </template>
+                    </div>
+                    <div>
+                        <div class="flex items-center space-x-1.5 flex-wrap">
+                            <h1 class="font-extrabold text-base tracking-wide leading-tight" x-text="settings.companyName || 'SLWT.INC'"></h1>
+                            <span x-show="settings.appNameText" class="text-[9px] font-black bg-slate-800 text-amber-400 px-1.5 py-0.5 rounded border border-slate-700 uppercase" x-text="settings.appNameText"></span>
+                        </div>
+                        <p x-show="settings.companyTagline" class="text-[11px] text-slate-300 font-medium" x-text="settings.companyTagline"></p>
+                    </div>
+                </div>
+
+                <nav class="space-y-1.5">
+                    <template x-for="tab in visibleNavItems" :key="tab.key">
+                        <button @click="switchTab(tab.key)" 
+                                :class="currentTab === tab.key ? 'nav-btn-active' : 'text-slate-300 hover:text-white hover:bg-slate-800/80'" 
+                                class="w-full text-left px-4 py-3 rounded-xl text-xs sm:text-sm font-semibold transition-all duration-200 flex items-center space-x-3">
+                            <i :class="tab.icon + ' text-base w-5 text-center'"></i>
+                            <span x-text="navLabels[tab.key] || tab.defaultLabel"></span>
+                        </button>
+                    </template>
+                </nav>
+            </div>
+
+            <div class="p-4 border-t border-slate-700/60 bg-slate-900/40 hidden md:block">
+                <div class="flex items-center justify-between text-xs text-slate-400">
+                    <span class="flex items-center text-emerald-400 font-medium">
+                        <i class="fa-solid fa-calendar-check mr-1.5 text-xs"></i> <span x-text="getTodayDate()"></span>
+                    </span>
+                    <span class="text-[10px] bg-slate-800 px-2 py-0.5 rounded text-slate-300 font-mono">Real-Time</span>
+                </div>
+            </div>
+        </aside>
+
+        <!-- MAIN CONTENT WORKSPACE -->
+        <main id="main-container" class="flex-1 w-full mx-auto p-4 sm:p-6 lg:p-8 overflow-y-auto" :class="{'pb-24': settings.toolbarPos === 'bottom'}">
+
+            <!-- TAB 1: BUAT INVOICE -->
+            <section x-show="currentTab === 'invoice'" x-transition:enter="transition ease-out duration-200" class="space-y-6">
+                <!-- Action Controls Bar -->
+                <div class="flex flex-wrap justify-between items-center bg-white p-4 rounded-2xl shadow-sm border border-slate-200 gap-3 no-print">
+                    <div class="flex items-center space-x-2">
+                        <span class="text-xs font-bold uppercase tracking-wider text-slate-500">Status Nota:</span>
+                        <select x-model="currentInvoice.status" @change="triggerAutosave()" class="bg-slate-50 border border-slate-300 text-slate-800 text-xs sm:text-sm rounded-xl px-3 py-2 font-bold focus:ring-2 focus:ring-amber-500 focus:outline-none">
+                            <option value="BELUM LUNAS">🔴 BELUM LUNAS</option>
+                            <option value="LUNAS">🟢 LUNAS</option>
+                            <option value="DP (SEBAGIAN)">🟡 DP (SEBAGIAN)</option>
+                        </select>
+                    </div>
+
+                    <div class="flex flex-wrap gap-2">
+                        <button @click="createNewInvoice()" class="bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold px-3.5 py-2 rounded-xl text-xs sm:text-sm transition flex items-center border border-slate-300">
+                            <i class="fa-solid fa-file-circle-plus mr-1.5 text-indigo-600"></i> Nota Baru
+                        </button>
+                        <button @click="saveCurrentInvoiceToHistory()" class="bg-slate-800 hover:bg-slate-700 text-white font-bold px-3.5 py-2 rounded-xl text-xs sm:text-sm transition flex items-center shadow-sm">
+                            <i class="fa-solid fa-floppy-disk mr-1.5 text-amber-400"></i> Simpan ke Riwayat
+                        </button>
+                        <button @click="window.print()" class="bg-theme-accent hover:bg-theme-accent-hover text-theme-accent-text font-extrabold px-4 py-2 rounded-xl text-xs sm:text-sm transition flex items-center shadow">
+                            <i class="fa-solid fa-print mr-1.5"></i> Cetak / PDF A4
+                        </button>
+                    </div>
+                </div>
+
+                <!-- INVOICE SHEET DISPLAY -->
+                <div id="invoice-sheet" 
+                     class="bg-white rounded-2xl shadow-xl border border-slate-200 max-w-4xl mx-auto print-shadow relative overflow-hidden transition-all"
+                     :class="{
+                        'p-4 sm:p-6 space-y-3': settings.invSpacing === 'compact',
+                        'p-6 sm:p-10 space-y-6': settings.invSpacing === 'normal',
+                        'p-8 sm:p-12 space-y-8': settings.invSpacing === 'loose'
+                     }"
+                     :style="{ fontSize: (settings.invFontSize || 12) + 'px' }">
+                    
+                    <!-- Watermark Stamp -->
+                    <div :class="{
+                            'border-emerald-600 text-emerald-600 bg-emerald-50/30': currentInvoice.status === 'LUNAS', 
+                            'border-amber-600 text-amber-600 bg-amber-50/30': currentInvoice.status === 'DP (SEBAGIAN)', 
+                            'border-rose-600 text-rose-600 bg-rose-50/30': currentInvoice.status === 'BELUM LUNAS'
+                         }" 
+                         class="absolute border-4 font-black text-2xl sm:text-3xl px-6 py-2 rounded-2xl uppercase tracking-widest opacity-25 pointer-events-none select-none z-10 whitespace-nowrap"
+                         :style="getStatusNotaStyle()">
+                        <span x-text="currentInvoice.status === 'LUNAS' ? 'LUNAS' : (currentInvoice.status === 'DP (SEBAGIAN)' ? 'DP TERBAYAR' : 'BELUM LUNAS')"></span>
+                    </div>
+
+                    <!-- Header Invoice -->
+                    <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center border-b-2 border-slate-900 pb-5 gap-4">
+                        <div class="flex items-center space-x-4">
+                            <div class="w-16 h-16 sm:w-20 sm:h-20 rounded-2xl border-2 border-slate-200 bg-slate-900 text-white flex items-center justify-center font-black text-xl overflow-hidden shadow-sm shrink-0">
+                                <template x-if="settings.logoImg">
+                                    <img :src="settings.logoImg" alt="Logo" class="w-full h-full object-cover">
+                                </template>
+                                <template x-if="!settings.logoImg && settings.logoText">
+                                    <span x-text="settings.logoText" class="tracking-wider uppercase text-center px-1 font-extrabold text-xs sm:text-sm"></span>
+                                </template>
+                                <template x-if="!settings.logoImg && !settings.logoText">
+                                    <i class="fa-solid fa-building text-2xl text-slate-600"></i>
+                                </template>
+                            </div>
+                            <div>
+                                <h2 class="text-lg sm:text-2xl font-black text-slate-900 tracking-wider uppercase" x-text="settings.companyName || 'SLWT.INC'"></h2>
+                                <p class="text-xs text-slate-500 font-medium mt-0.5" x-text="settings.companyTagline"></p>
+                            </div>
+                        </div>
+
+                        <div class="text-left sm:text-right w-full sm:w-auto">
+                            <div class="bg-slate-900 text-amber-400 font-black text-sm sm:text-base px-3 py-1 inline-block rounded-lg tracking-wider uppercase mb-1 shadow">
+                                INVOICE <span x-text="currentInvoice.status"></span>
+                            </div>
+                            <div class="text-xs font-semibold text-slate-700 space-y-1">
+                                <div class="flex sm:justify-end items-center space-x-2">
+                                    <span class="text-slate-500 uppercase font-bold">NO. INVOICE:</span>
+                                    <input type="text" x-model="currentInvoice.number" @input="triggerAutosave()" class="border-b border-slate-300 font-mono font-bold text-slate-800 w-44 focus:outline-none focus:border-slate-900 text-right py-0.5">
+                                </div>
+                                <div class="flex sm:justify-end items-center space-x-2 bg-amber-50 px-2 py-0.5 rounded border border-amber-200">
+                                    <span class="text-amber-800 font-bold">📅 TANGGAL:</span>
+                                    <input type="date" x-model="currentInvoice.date" @change="triggerAutosave()" class="bg-transparent font-bold text-slate-800 text-right focus:outline-none">
+                                    <button @click="currentInvoice.date = getTodayDate(); triggerAutosave()" class="no-print text-[10px] text-amber-700 hover:underline font-bold" title="Set Tanggal Hari Ini">Hari Ini</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Customer Info & Notes -->
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-xs">
+                        <div class="bg-slate-50 p-3.5 rounded-xl border border-slate-200/80">
+                            <h4 class="font-extrabold text-slate-500 uppercase tracking-wider mb-1 flex items-center text-[10px]">
+                                <i class="fa-solid fa-user-tag mr-1.5 text-amber-500"></i> DITUJUKAN KEPADA :
+                            </h4>
+                            <input type="text" x-model="currentInvoice.custName" @input="triggerAutosave()" placeholder="Nama Pelanggan / Perusahaan" class="w-full bg-transparent font-bold text-sm text-slate-900 border-b border-slate-300 focus:border-slate-900 focus:outline-none mb-1 py-0.5">
+                            <textarea x-model="currentInvoice.custAddress" @input="triggerAutosave()" placeholder="Alamat & Kontak Pelanggan" rows="2" class="w-full bg-transparent text-slate-600 resize-none focus:outline-none"></textarea>
+                        </div>
+                        <div class="bg-slate-50 p-3.5 rounded-xl border border-slate-200/80">
+                            <h4 class="font-extrabold text-slate-500 uppercase tracking-wider mb-1 flex items-center text-[10px]">
+                                <i class="fa-solid fa-clipboard-list mr-1.5 text-amber-500"></i> KETERANGAN / PROJECT :
+                            </h4>
+                            <textarea x-model="currentInvoice.notes" @input="triggerAutosave()" placeholder="Catatan transaksi..." rows="3" class="w-full bg-transparent text-slate-600 resize-none focus:outline-none"></textarea>
+                        </div>
+                    </div>
+
+                    <!-- Item Table -->
+                    <div class="overflow-x-auto rounded-xl border border-slate-200">
+                        <table class="w-full text-left border-collapse">
+                            <thead>
+                                <tr class="bg-slate-900 text-white text-[10px] uppercase tracking-wider">
+                                    <th class="p-2.5 w-8 text-center">NO</th>
+                                    <th class="p-2.5">DESKRIPSI ITEM</th>
+                                    <th class="p-2.5 w-20 text-center">QTY</th>
+                                    <th class="p-2.5 w-32 text-right">HARGA (RP)</th>
+                                    <th class="p-2.5 w-32 text-right">TOTAL (RP)</th>
+                                    <th class="p-2.5 w-10 text-center no-print">AKSI</th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y divide-slate-200">
+                                <template x-for="(item, idx) in currentInvoice.items" :key="idx">
+                                    <tr class="hover:bg-slate-50/80 transition">
+                                        <td class="p-2.5 text-center font-bold text-slate-500" x-text="idx + 1"></td>
+                                        <td class="p-2.5">
+                                            <textarea rows="2" x-model="item.desc" @input="triggerAutosave()" placeholder="Rincian item..." class="w-full bg-transparent border-b border-slate-200 focus:border-slate-900 focus:outline-none py-0.5 font-semibold text-slate-800 resize-y"></textarea>
+                                        </td>
+                                        <td class="p-2.5 text-center">
+                                            <input type="number" x-model.number="item.qty" min="1" @input="triggerAutosave()" class="w-16 text-center border border-slate-300 rounded-lg p-1 font-bold bg-white">
+                                        </td>
+                                        <td class="p-2.5 text-right">
+                                            <input type="number" x-model.number="item.price" min="0" @input="triggerAutosave()" class="w-28 text-right border border-slate-300 rounded-lg p-1 font-bold bg-white">
+                                        </td>
+                                        <td class="p-2.5 text-right font-extrabold text-slate-900" x-text="formatRupiah(item.qty * item.price)"></td>
+                                        <td class="p-2.5 text-center no-print">
+                                            <button @click="removeInvoiceItem(idx)" class="text-rose-500 hover:text-rose-700 p-1 rounded-lg hover:bg-rose-50 transition" title="Hapus Baris">
+                                                <i class="fa-solid fa-trash-can text-xs"></i>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                </template>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="flex flex-wrap justify-between items-center gap-2 no-print">
+                        <button @click="addItemRow()" class="bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold px-3 py-1.5 rounded-xl text-xs transition border border-slate-300 flex items-center">
+                            <i class="fa-solid fa-plus mr-1.5 text-emerald-600"></i> Tambah Baris Manual
+                        </button>
+                        <button @click="openProductPicker()" class="bg-amber-50 hover:bg-amber-100 text-amber-900 font-bold px-3 py-1.5 rounded-xl text-xs transition border border-amber-300 flex items-center">
+                            <i class="fa-solid fa-boxes-stacked mr-1.5 text-amber-600"></i> Ambil dari Master Produk
+                        </button>
+                    </div>
+
+                    <!-- Summary & Calculations -->
+                    <div class="flex justify-end pt-2">
+                        <div class="w-full sm:w-72 border border-slate-300 rounded-xl overflow-hidden text-xs shadow-sm bg-slate-50">
+                            <div class="flex justify-between p-2.5 border-b border-slate-200 bg-white">
+                                <span class="font-semibold text-slate-600">SUBTOTAL</span>
+                                <span class="font-bold text-slate-900" x-text="formatRupiah(calculateSubtotal())"></span>
+                            </div>
+                            <div class="flex justify-between items-center p-2.5 border-b border-slate-200 bg-white">
+                                <span class="font-semibold text-slate-600">DISKON (RP)</span>
+                                <input type="number" x-model.number="currentInvoice.discount" min="0" @input="triggerAutosave()" class="w-24 text-right border border-slate-300 rounded-lg p-0.5 font-bold">
+                            </div>
+                            <div class="flex justify-between p-2.5 border-b border-slate-200 bg-slate-100 font-bold text-slate-900">
+                                <span>TOTAL AKHIR</span>
+                                <span x-text="formatRupiah(calculateTotal())"></span>
+                            </div>
+                            <div class="flex justify-between items-center p-2.5 border-b border-slate-200 bg-emerald-50/60">
+                                <span class="font-bold text-emerald-800">DP (UANG MUKA)</span>
+                                <input type="number" x-model.number="currentInvoice.dp" min="0" @input="triggerAutosave()" class="w-24 text-right border border-emerald-300 rounded-lg p-0.5 font-bold text-emerald-900">
+                            </div>
+                            <div class="flex justify-between p-3 bg-slate-900 text-amber-400 font-black tracking-wide">
+                                <span>SISA PEMBAYARAN</span>
+                                <span x-text="formatRupiah(calculateRemaining())"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Bank Details & Signatures -->
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-end pt-6 border-t border-slate-200">
+                        <div class="border border-slate-200 rounded-xl p-3 bg-slate-50 space-y-1">
+                            <p class="font-bold text-[10px] text-slate-700 uppercase border-b pb-1 mb-1 flex items-center">
+                                <i class="fa-solid fa-building-columns mr-1.5 text-slate-500"></i> REKENING PEMBAYARAN RESMI :
+                            </p>
+                            <div class="text-[11px] font-medium text-slate-800 whitespace-pre-line leading-relaxed" x-text="settings.bankAccounts"></div>
+                        </div>
+
+                        <div class="flex flex-col" 
+                             :class="{
+                                'items-end': settings.signerAlign === 'right',
+                                'items-center': settings.signerAlign === 'center',
+                                'items-start': settings.signerAlign === 'left'
+                             }" 
+                             :style="{ paddingRight: (settings.signerAlign === 'right' ? (settings.signerMarginRight || 0) + 'px' : '0px') }">
+                            <p class="text-xs text-slate-500 font-medium mb-0.5">Hormat Kami,</p>
+                            <p class="text-xs font-bold text-slate-800 uppercase" x-text="settings.companyName"></p>
+
+                            <div class="h-16 my-1 flex items-center justify-center">
+                                <img x-show="settings.sigImg" :src="settings.sigImg" alt="Tanda Tangan" class="max-h-16 object-contain">
+                                <span x-show="!settings.sigImg" class="text-slate-300 italic text-[11px]">( Tanda Tangan / Stempel )</span>
+                            </div>
+
+                            <p class="font-bold text-slate-900 border-t border-slate-400 pt-0.5 w-44 text-center text-xs" x-text="settings.signerName"></p>
+                        </div>
+                    </div>
+
+                    <div class="pt-3 border-t border-slate-100 flex justify-between items-center text-[10px] text-slate-400">
+                        <p x-text="settings.defaultNotes || '- Terima kasih atas kerja sama Anda -'"></p>
+                        <p class="font-mono text-[9px]">Dicetak via SLWT Enterprise</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- TAB 2: DATA PELANGGAN -->
+            <section x-show="currentTab === 'customers'" x-transition:enter="transition ease-out duration-200" class="space-y-6">
+                <!-- Kartu Ringkasan Statistik Pelanggan -->
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                    <div class="bg-white p-5 rounded-2xl shadow-sm border border-slate-200 flex items-center justify-between">
+                        <div>
+                            <p class="text-xs font-bold text-slate-500 uppercase">Total Pelanggan</p>
+                            <h3 class="text-2xl font-black text-slate-900 mt-1" x-text="customersList.length"></h3>
+                        </div>
+                        <div class="w-12 h-12 rounded-xl bg-amber-50 text-amber-600 flex items-center justify-center text-xl font-bold">
+                            <i class="fa-solid fa-address-book"></i>
+                        </div>
+                    </div>
+
+                    <div class="bg-white p-5 rounded-2xl shadow-sm border border-slate-200 flex items-center justify-between">
+                        <div>
+                            <p class="text-xs font-bold text-slate-500 uppercase">Pesanan Bulan Ini</p>
+                            <h3 class="text-2xl font-black text-emerald-600 mt-1" x-text="countCustomerOrdersThisMonth()"></h3>
+                        </div>
+                        <div class="w-12 h-12 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center text-xl font-bold">
+                            <i class="fa-solid fa-boxes-packing"></i>
+                        </div>
+                    </div>
+
+                    <div class="bg-white p-5 rounded-2xl shadow-sm border border-slate-200 flex items-center justify-between">
+                        <div>
+                            <p class="text-xs font-bold text-slate-500 uppercase">Hasil Pencarian</p>
+                            <h3 class="text-2xl font-black text-indigo-600 mt-1" x-text="filteredCustomers.length"></h3>
+                        </div>
+                        <div class="w-12 h-12 rounded-xl bg-indigo-50 text-indigo-600 flex items-center justify-center text-xl font-bold">
+                            <i class="fa-solid fa-filter"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Panel Kontrol Pelanggan -->
+                <div class="bg-white p-4 sm:p-5 rounded-2xl shadow-sm border border-slate-200 flex flex-wrap justify-between items-center gap-4">
+                    <!-- Search Bar -->
+                    <div class="relative flex-1 min-w-[240px]">
+                        <i class="fa-solid fa-magnifying-glass absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400 text-xs"></i>
+                        <input type="text" x-model="customerSearchQuery" placeholder="Cari nama, no HP, alamat, atau produk..." class="w-full pl-9 pr-4 py-2.5 bg-slate-50 border border-slate-300 rounded-xl text-xs font-semibold focus:ring-2 focus:ring-amber-500 focus:outline-none transition">
+                    </div>
+
+                    <!-- Tombol Aksi Pelanggan -->
+                    <div class="flex flex-wrap gap-2 w-full sm:w-auto">
+                        <button @click="openCustomerModal()" class="flex-1 sm:flex-none bg-theme-accent hover:bg-theme-accent-hover text-theme-accent-text font-extrabold px-4 py-2.5 rounded-xl text-xs transition shadow flex items-center justify-center">
+                            <i class="fa-solid fa-user-plus mr-1.5"></i> Tambah Pelanggan
+                        </button>
+                        <button @click="exportCustomersExcel()" class="bg-emerald-600 hover:bg-emerald-700 text-white font-bold px-3.5 py-2.5 rounded-xl text-xs transition shadow flex items-center">
+                            <i class="fa-solid fa-file-excel mr-1.5"></i> Export Excel
+                        </button>
+                        <button @click="exportCustomersOnlyJSON()" class="bg-slate-800 hover:bg-slate-700 text-white font-bold px-3.5 py-2.5 rounded-xl text-xs transition shadow flex items-center">
+                            <i class="fa-solid fa-download mr-1.5"></i> Backup JSON
+                        </button>
+                        <label class="bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold px-3.5 py-2.5 rounded-xl text-xs border border-slate-300 transition cursor-pointer flex items-center">
+                            <i class="fa-solid fa-upload mr-1.5"></i> Restore
+                            <input type="file" accept=".json" @change="importCustomersOnlyJSON($event)" class="hidden">
+                        </label>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden">
+                    <div class="overflow-x-auto">
+                        <table class="w-full text-left border-collapse">
+                            <thead>
+                                <tr class="bg-slate-900 text-white text-xs uppercase tracking-wider">
+                                    <th class="p-4 w-12 text-center">#</th>
+                                    <th class="p-4">NAMA PELANGGAN</th>
+                                    <th class="p-4">NO. HP / WHATSAPP</th>
+                                    <th class="p-4">ALAMAT LENGKAP</th>
+                                    <th class="p-4 text-center">TGL PEMESANAN</th>
+                                    <th class="p-4">PRODUK YANG DIPESAN</th>
+                                    <th class="p-4 text-center w-36">AKSI</th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y divide-slate-100 text-sm">
+                                <template x-for="(c, idx) in filteredCustomers" :key="c.id">
+                                    <tr class="hover:bg-slate-50 transition">
+                                        <td class="p-4 text-center text-xs text-slate-400 font-bold" x-text="idx + 1"></td>
+                                        <td class="p-4 font-bold text-slate-900">
+                                            <div x-text="c.name"></div>
+                                            <span x-show="c.notes" class="text-[10px] text-slate-400 font-normal italic" x-text="'* ' + c.notes"></span>
+                                        </td>
+                                        <td class="p-4 font-mono text-xs">
+                                            <div class="flex items-center space-x-1.5">
+                                                <span class="text-slate-800 font-bold" x-text="c.phone || '-'"></span>
+                                                <template x-if="c.phone">
+                                                    <a :href="'https://wa.me/' + formatWhatsAppNumber(c.phone)" target="_blank" class="text-emerald-600 hover:text-emerald-800 bg-emerald-50 p-1 rounded-md text-[10px] font-bold border border-emerald-200" title="Kirim Pesan WhatsApp">
+                                                        <i class="fa-brands fa-whatsapp text-xs mr-0.5"></i> WA
+                                                    </a>
+                                                </template>
+                                            </div>
+                                        </td>
+                                        <td class="p-4 text-xs text-slate-600 max-w-xs" x-text="c.address || '-'"></td>
+                                        <td class="p-4 text-center text-xs font-mono font-bold text-amber-800 bg-amber-50/50 rounded-lg" x-text="c.orderDate || '-'"></td>
+                                        <td class="p-4 text-xs font-semibold text-slate-800 whitespace-pre-line" x-text="c.productOrdered || '-'"></td>
+                                        <td class="p-4 text-center space-x-1">
+                                            <button @click="useCustomerInInvoice(c)" class="text-indigo-600 hover:text-indigo-900 p-1.5 rounded hover:bg-indigo-50" title="Gunakan di Invoice">
+                                                <i class="fa-solid fa-file-export"></i>
+                                            </button>
+                                            <button @click="editCustomer(c)" class="text-amber-600 hover:text-amber-800 p-1.5 rounded hover:bg-amber-50" title="Edit">
+                                                <i class="fa-solid fa-pen-to-square"></i>
+                                            </button>
+                                            <button @click="deleteCustomer(c.id)" class="text-rose-500 hover:text-rose-700 p-1.5 rounded hover:bg-rose-50" title="Hapus">
+                                                <i class="fa-solid fa-trash-can"></i>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                </template>
+                                <tr x-show="filteredCustomers.length === 0">
+                                    <td colspan="7" class="p-8 text-center text-slate-400 text-xs">Belum ada data pelanggan tersimpan. Klik "Tambah Pelanggan" untuk menambahkan.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+
+            <!-- TAB 3: MASTER PRODUK -->
+            <section x-show="currentTab === 'products'" x-transition:enter="transition ease-out duration-200" class="space-y-6">
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 flex flex-wrap justify-between items-center gap-4">
+                    <div>
+                        <h2 class="text-xl font-bold text-slate-900 flex items-center">
+                            <i class="fa-solid fa-boxes-stacked mr-2 text-amber-500"></i> Master Produk & Jasa
+                        </h2>
+                        <p class="text-xs text-slate-500 mt-1">Kelola katalog barang atau layanan yang sering ditawarkan.</p>
+                    </div>
+                    <button @click="openProductModal()" class="bg-theme-accent hover:bg-theme-accent-hover text-theme-accent-text font-extrabold px-4 py-2.5 rounded-xl text-xs sm:text-sm transition shadow flex items-center">
+                        <i class="fa-solid fa-plus mr-1.5"></i> Tambah Produk Baru
+                    </button>
+                </div>
+
+                <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden">
+                    <div class="overflow-x-auto">
+                        <table class="w-full text-left border-collapse">
+                            <thead>
+                                <tr class="bg-slate-900 text-white text-xs uppercase tracking-wider">
+                                    <th class="p-4 w-12 text-center">#</th>
+                                    <th class="p-4">NAMA PRODUK / JASA</th>
+                                    <th class="p-4">DESKRIPSI STANDARD</th>
+                                    <th class="p-4 text-right">HARGA SATUAN (RP)</th>
+                                    <th class="p-4 text-center w-32">AKSI</th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y divide-slate-100 text-sm">
+                                <template x-for="(p, idx) in products" :key="p.id">
+                                    <tr class="hover:bg-slate-50 transition">
+                                        <td class="p-4 text-center text-xs text-slate-400 font-bold" x-text="idx + 1"></td>
+                                        <td class="p-4 font-bold text-slate-800" x-text="p.name"></td>
+                                        <td class="p-4 text-xs text-slate-600 whitespace-pre-line" x-text="p.desc || '-'"></td>
+                                        <td class="p-4 text-right font-extrabold text-slate-900" x-text="formatRupiah(p.price)"></td>
+                                        <td class="p-4 text-center space-x-2">
+                                            <button @click="editProduct(p)" class="text-amber-600 hover:text-amber-800 p-1.5 rounded hover:bg-amber-50" title="Edit">
+                                                <i class="fa-solid fa-pen-to-square"></i>
+                                            </button>
+                                            <button @click="deleteProduct(p.id)" class="text-rose-500 hover:text-rose-700 p-1.5 rounded hover:bg-rose-50" title="Hapus">
+                                                <i class="fa-solid fa-trash-can"></i>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                </template>
+                                <tr x-show="products.length === 0">
+                                    <td colspan="5" class="p-8 text-center text-slate-400 text-xs">Belum ada produk tersimpan. Klik "Tambah Produk Baru" untuk menambahkan.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+
+            <!-- TAB 4: RIWAYAT INVOICE -->
+            <section x-show="currentTab === 'history'" x-transition:enter="transition ease-out duration-200" class="space-y-6">
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 flex justify-between items-center flex-wrap gap-4">
+                    <div>
+                        <h2 class="text-xl font-bold text-slate-900 flex items-center">
+                            <i class="fa-solid fa-clock-rotate-left mr-2 text-amber-500"></i> Riwayat Invoice Tersimpan
+                        </h2>
+                        <p class="text-xs text-slate-500 mt-1">Daftar arsip seluruh invoice yang pernah dibuat dan disimpan.</p>
+                    </div>
+                    <div class="text-xs font-semibold bg-slate-100 px-3 py-1.5 rounded-lg border text-slate-600">
+                        Total Tersimpan: <span class="font-extrabold text-slate-900" x-text="historyList.length"></span>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden">
+                    <div class="overflow-x-auto">
+                        <table class="w-full text-left border-collapse">
+                            <thead>
+                                <tr class="bg-slate-900 text-white text-xs uppercase tracking-wider">
+                                    <th class="p-4 w-12 text-center">#</th>
+                                    <th class="p-4">NO. INVOICE</th>
+                                    <th class="p-4">PELANGGAN</th>
+                                    <th class="p-4">TANGGAL</th>
+                                    <th class="p-4 text-right">TOTAL NETT</th>
+                                    <th class="p-4 text-center">STATUS</th>
+                                    <th class="p-4 text-center w-36">AKSI</th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y divide-slate-100 text-sm">
+                                <template x-for="(inv, idx) in historyList" :key="inv.number">
+                                    <tr class="hover:bg-slate-50 transition">
+                                        <td class="p-4 text-center text-xs text-slate-400 font-bold" x-text="idx + 1"></td>
+                                        <td class="p-4 font-mono font-bold text-slate-800" x-text="inv.number"></td>
+                                        <td class="p-4 text-slate-700 font-semibold" x-text="inv.custName || 'Umum'"></td>
+                                        <td class="p-4 text-xs font-medium text-slate-500" x-text="inv.date"></td>
+                                        <td class="p-4 text-right font-extrabold text-slate-900" x-text="formatRupiah(calculateInvoiceTotalNett(inv))"></td>
+                                        <td class="p-4 text-center">
+                                            <span class="px-3 py-1 rounded-full text-[10px] font-black uppercase tracking-wider" 
+                                                  :class="{
+                                                      'bg-emerald-100 text-emerald-800 border border-emerald-300': inv.status === 'LUNAS',
+                                                      'bg-amber-100 text-amber-800 border border-amber-300': inv.status === 'DP (SEBAGIAN)',
+                                                      'bg-rose-100 text-rose-800 border border-rose-300': inv.status === 'BELUM LUNAS'
+                                                  }" 
+                                                  x-text="inv.status">
+                                            </span>
+                                        </td>
+                                        <td class="p-4 text-center space-x-2">
+                                            <button @click="loadInvoice(inv)" class="bg-amber-500 hover:bg-amber-600 text-white px-2.5 py-1.5 rounded-lg text-xs font-bold transition shadow-sm" title="Muat Ke Editor">
+                                                <i class="fa-solid fa-folder-open mr-1"></i> Buka
+                                            </button>
+                                            <button @click="deleteHistory(inv.number)" class="text-rose-500 hover:text-rose-700 p-1.5 rounded hover:bg-rose-50" title="Hapus">
+                                                <i class="fa-solid fa-trash-can"></i>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                </template>
+                                <tr x-show="historyList.length === 0">
+                                    <td colspan="7" class="p-8 text-center text-slate-400 text-xs">Belum ada riwayat invoice. Simpan invoice dari halaman editor.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+
+            <!-- TAB 5: REKAP KEUANGAN -->
+            <section x-show="currentTab === 'finance'" x-transition:enter="transition ease-out duration-200" class="space-y-6">
+                <div class="flex justify-between items-center bg-white p-6 rounded-2xl shadow-sm border border-slate-200 flex-wrap gap-4 no-print">
+                    <div>
+                        <h2 class="text-xl font-bold text-slate-900 flex items-center">
+                            <i class="fa-solid fa-wallet mr-2 text-amber-500"></i> Rekapitulasi Arus Kas & Keuangan
+                        </h2>
+                        <p class="text-xs text-slate-500 mt-1">Pencatatan pemasukan, pengeluaran, bukti transaksi foto, dan laporan ekspor.</p>
+                    </div>
+
+                    <!-- FILTER PER BULAN DENGAN AUTOSAVE -->
+                    <div class="flex items-center space-x-2 bg-slate-50 p-2 rounded-xl border border-slate-200">
+                        <label class="text-xs font-bold text-slate-600 flex items-center">
+                            <i class="fa-solid fa-calendar-days mr-1.5 text-amber-500"></i> Periode Laporan:
+                        </label>
+                        <input type="month" x-model="selectedMonth" @change="saveStorage(); renderChart(); showToast('Filter bulan tersimpan & diperbarui!')" class="border border-slate-300 rounded-lg px-2.5 py-1 text-xs font-bold text-slate-800 focus:outline-none focus:ring-2 focus:ring-amber-500">
+                        <button x-show="selectedMonth" @click="selectedMonth = ''; saveStorage(); renderChart(); showToast('Filter bulan dibersihkan!')" class="bg-rose-50 hover:bg-rose-100 text-rose-600 text-xs font-bold px-2 py-1 rounded-lg border border-rose-200" title="Tampilkan Semua">
+                            <i class="fa-solid fa-xmark mr-1"></i> Semua
+                        </button>
+                    </div>
+
+                    <div class="flex flex-wrap gap-2">
+                        <button @click="downloadCSV()" class="bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold px-3.5 py-2.5 rounded-xl text-xs transition border border-slate-300 flex items-center">
+                            <i class="fa-solid fa-file-csv mr-1.5"></i> Download CSV
+                        </button>
+                        <button @click="openCompanyReportModal()" class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold px-3.5 py-2.5 rounded-xl text-xs shadow-md transition flex items-center">
+                            <i class="fa-solid fa-file-contract mr-1.5"></i> Laporan Perusahaan
+                        </button>
+                        <button @click="downloadExcelReport()" class="bg-emerald-600 hover:bg-emerald-700 text-white font-bold px-4 py-2.5 rounded-xl text-xs shadow-md transition flex items-center">
+                            <i class="fa-solid fa-file-excel mr-1.5 text-base"></i> Export Excel
+                        </button>
+                    </div>
+                </div>
+
+                <!-- KARTU METRIC BISA DI-KLIK -->
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                    <div @click="openMetricModal('Masuk')" class="bg-white p-5 rounded-2xl shadow-sm border border-slate-200 cursor-pointer hover:border-emerald-400 hover:shadow-md transition group">
+                        <div class="flex justify-between items-center mb-2">
+                            <span class="text-[11px] font-bold text-emerald-600 uppercase tracking-wider group-hover:underline" x-text="financeSettings.labels.income"></span>
+                            <div class="w-8 h-8 rounded-lg bg-emerald-50 text-emerald-600 flex items-center justify-center group-hover:scale-110 transition"><i class="fa-solid fa-arrow-trend-up"></i></div>
+                        </div>
+                        <h3 class="text-xl font-black text-emerald-700" x-text="formatRupiah(totalMasuk)"></h3>
+                        <p class="text-[10px] text-slate-400 mt-1 font-semibold flex items-center"><i class="fa-solid fa-circle-info mr-1"></i> Klik untuk rekap detail pemasukan</p>
+                    </div>
+
+                    <div @click="openMetricModal('Keluar')" class="bg-white p-5 rounded-2xl shadow-sm border border-slate-200 cursor-pointer hover:border-rose-400 hover:shadow-md transition group">
+                        <div class="flex justify-between items-center mb-2">
+                            <span class="text-[11px] font-bold text-rose-600 uppercase tracking-wider group-hover:underline" x-text="financeSettings.labels.expense"></span>
+                            <div class="w-8 h-8 rounded-lg bg-rose-50 text-rose-600 flex items-center justify-center group-hover:scale-110 transition"><i class="fa-solid fa-arrow-trend-down"></i></div>
+                        </div>
+                        <h3 class="text-xl font-black text-rose-700" x-text="formatRupiah(totalKeluar)"></h3>
+                        <p class="text-[10px] text-slate-400 mt-1 font-semibold flex items-center"><i class="fa-solid fa-circle-info mr-1"></i> Klik untuk rekap detail pengeluaran</p>
+                    </div>
+
+                    <div @click="openMetricModal('All')" class="bg-slate-900 p-5 rounded-2xl shadow-sm border border-slate-800 text-white cursor-pointer hover:border-amber-400 hover:shadow-md transition group">
+                        <div class="flex justify-between items-center mb-2">
+                            <span class="text-[11px] font-bold text-amber-400 uppercase tracking-wider group-hover:underline" x-text="financeSettings.labels.balance"></span>
+                            <div class="w-8 h-8 rounded-lg bg-slate-800 text-amber-400 flex items-center justify-center group-hover:scale-110 transition"><i class="fa-solid fa-wallet"></i></div>
+                        </div>
+                        <h3 class="text-xl font-black text-amber-400" x-text="formatRupiah(totalMasuk - totalKeluar)"></h3>
+                        <p class="text-[10px] text-slate-400 mt-1 font-semibold flex items-center"><i class="fa-solid fa-circle-info mr-1"></i> Klik untuk rekap saldo gabungan</p>
+                    </div>
+                </div>
+
+                <!-- Chart Box -->
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200">
+                    <div class="flex justify-between items-center mb-4">
+                        <h3 class="font-bold text-slate-800 text-sm flex items-center">
+                            <i class="fa-solid fa-chart-column mr-2 text-indigo-500"></i> Visualisasi Grafik Keuangan
+                        </h3>
+                        <div class="text-xs text-slate-500 font-medium">
+                            Tipe: <span class="font-bold text-slate-800 uppercase" x-text="financeSettings.chartType"></span>
+                        </div>
+                    </div>
+                    <div class="w-full h-64 sm:h-72 flex justify-center items-center">
+                        <canvas id="financeChart"></canvas>
+                    </div>
+                </div>
+
+                <!-- Transaction Grid -->
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+                    <!-- Form Input Kas -->
+                    <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 h-fit no-print">
+                        <h3 class="font-bold text-slate-800 mb-4 text-sm flex items-center border-b pb-2">
+                            <i class="fa-solid fa-plus-circle mr-2 text-amber-500"></i> Catat Transaksi Kas
+                        </h3>
+                        <form @submit.prevent="addFinanceTransaction" class="space-y-4 text-xs">
+                            <div>
+                                <label class="block font-bold text-slate-700 mb-1">Keterangan / Transaksi</label>
+                                <input type="text" x-model="finForm.name" required placeholder="Contoh: Pembayaran DP Pouch" class="w-full border border-slate-300 rounded-xl p-2.5 text-xs font-semibold focus:outline-none focus:ring-2 focus:ring-amber-500">
+                            </div>
+                            <div class="grid grid-cols-2 gap-3">
+                                <div>
+                                    <label class="block font-bold text-slate-700 mb-1">Jenis Kas</label>
+                                    <select x-model="finForm.type" class="w-full border border-slate-300 rounded-xl p-2.5 text-xs font-bold focus:outline-none focus:ring-2 focus:ring-amber-500">
+                                        <option value="Masuk">🟢 Pemasukan</option>
+                                        <option value="Keluar">🔴 Pengeluaran</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label class="block font-bold text-slate-700 mb-1">Toko / Sumber</label>
+                                    <input type="text" x-model="finForm.store" required class="w-full border border-slate-300 rounded-xl p-2.5 text-xs font-semibold">
+                                </div>
+                            </div>
+                            <div class="grid grid-cols-2 gap-3">
+                                <div>
+                                    <label class="block font-bold text-slate-700 mb-1">Jumlah (Rp)</label>
+                                    <input type="number" x-model.number="finForm.amount" required min="1" class="w-full border border-slate-300 rounded-xl p-2.5 text-xs font-bold focus:outline-none focus:ring-2 focus:ring-amber-500">
+                                </div>
+                                <div>
+                                    <div class="flex justify-between items-center mb-1">
+                                        <label class="font-bold text-slate-700">Tanggal</label>
+                                        <button type="button" @click="finForm.date = getTodayDate()" class="text-[10px] text-amber-600 font-bold hover:underline">Hari Ini</button>
+                                    </div>
+                                    <input type="date" x-model="finForm.date" required class="w-full border border-slate-300 rounded-xl p-2.5 text-xs font-medium focus:outline-none focus:ring-2 focus:ring-amber-500">
+                                </div>
+                            </div>
+
+                            <div class="border-t pt-3">
+                                <label class="block font-bold text-slate-700 mb-1">Bukti Foto Transaksi (Galeri PC)</label>
+                                <input type="file" accept="image/*" @change="uploadTransactionPhoto($event, 'form')" class="block w-full text-xs text-slate-500 file:mr-3 file:py-1.5 file:px-3 file:rounded-xl file:border-0 file:text-xs file:font-bold file:bg-slate-100 file:text-slate-700 hover:file:bg-slate-200 cursor-pointer">
+                                <template x-if="finForm.photo">
+                                    <div class="mt-2 flex items-center space-x-2">
+                                        <img :src="finForm.photo" class="w-10 h-10 object-cover rounded-lg border">
+                                        <button type="button" @click="finForm.photo = ''" class="text-rose-500 text-xs font-bold hover:underline">Hapus Foto</button>
+                                    </div>
+                                </template>
+                            </div>
+
+                            <button type="submit" class="w-full bg-slate-900 hover:bg-slate-800 text-white font-bold py-3 rounded-xl shadow transition text-xs">
+                                <i class="fa-solid fa-check mr-1.5"></i> Simpan Transaksi Kas
+                            </button>
+                        </form>
+                    </div>
+
+                    <!-- Cash Flow Table -->
+                    <div class="lg:col-span-2 bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden flex flex-col">
+                        <div class="p-4 border-b font-bold text-slate-800 text-sm flex justify-between items-center bg-slate-50">
+                            <span>Daftar Transaksi Kas <span x-show="selectedMonth" class="text-xs text-amber-600 font-extrabold" x-text="'(Periode: ' + selectedMonth + ')'"></span></span>
+                            <span class="text-xs text-slate-500 font-normal">Total Record: <strong x-text="filteredFinanceList.length"></strong></span>
+                        </div>
+                        <div class="overflow-x-auto flex-1">
+                            <table class="w-full text-left text-xs">
+                                <thead>
+                                    <tr class="bg-slate-900 text-white text-[10px] uppercase tracking-wider">
+                                        <th class="p-3">TANGGAL</th>
+                                        <th class="p-3">KETERANGAN</th>
+                                        <th class="p-3">TOKO / SUMBER</th>
+                                        <th class="p-3 text-center">FOTO BUKTI</th>
+                                        <th class="p-3">JENIS</th>
+                                        <th class="p-3 text-right">JUMLAH (RP)</th>
+                                        <th class="p-3 text-center no-print">AKSI</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="divide-y divide-slate-100">
+                                    <template x-for="item in filteredFinanceList" :key="item.id">
+                                        <tr class="hover:bg-slate-50 transition">
+                                            <td class="p-3 text-slate-500 font-mono" x-text="item.date"></td>
+                                            <td class="p-3 font-bold text-slate-800" x-text="item.name"></td>
+                                            <td class="p-3 text-slate-600" x-text="item.store || '-'"></td>
+                                            <td class="p-3 text-center">
+                                                <template x-if="item.photo">
+                                                    <button @click="previewPhoto(item.photo)" class="text-indigo-600 font-bold hover:underline flex items-center justify-center space-x-1 mx-auto">
+                                                        <i class="fa-solid fa-image"></i>
+                                                        <span>Lihat</span>
+                                                    </button>
+                                                </template>
+                                                <template x-if="!item.photo">
+                                                    <span class="text-slate-300 italic text-[10px]">Tanpa Foto</span>
+                                                </template>
+                                            </td>
+                                            <td class="p-3">
+                                                <span class="px-2 py-0.5 rounded font-black text-[10px] uppercase" 
+                                                      :class="item.type === 'Masuk' ? 'bg-emerald-100 text-emerald-800' : 'bg-rose-100 text-rose-800'" 
+                                                      x-text="item.type">
+                                                </span>
+                                            </td>
+                                            <td class="p-3 text-right font-extrabold text-slate-900" x-text="formatRupiah(item.amount)"></td>
+                                            <td class="p-3 text-center no-print space-x-1">
+                                                <button @click="openEditTransactionModal(item)" class="text-amber-600 hover:text-amber-800 p-1" title="Edit"><i class="fa-solid fa-pen-to-square"></i></button>
+                                                <button @click="deleteFinance(item.id)" class="text-rose-500 hover:text-rose-700 p-1" title="Hapus"><i class="fa-solid fa-trash-can"></i></button>
+                                            </td>
+                                        </tr>
+                                    </template>
+                                    <tr x-show="filteredFinanceList.length === 0">
+                                        <td colspan="7" class="p-8 text-center text-slate-400 text-xs">Belum ada catatan arus kas pada periode ini.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- TAB 6: PENGATURAN INVOICE -->
+            <section x-show="currentTab === 'settingsInvoice'" x-transition:enter="transition ease-out duration-200" class="space-y-6">
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200">
+                    <h2 class="text-xl font-bold text-slate-900 flex items-center">
+                        <i class="fa-solid fa-file-invoice mr-2 text-amber-500"></i> Pengaturan Invoice, Ukuran Font & Print A4
+                    </h2>
+                    <p class="text-xs text-slate-500 mt-1">Atur identitas bisnis, logo, ukuran font invoice, kerapatan layout A4, dan posisi tanda tangan.</p>
+                </div>
+
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                    <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 space-y-4">
+                        <h3 class="font-bold text-slate-800 border-b pb-2 text-sm flex items-center justify-between">
+                            <span><i class="fa-solid fa-building mr-2 text-amber-500"></i> Identitas Usaha & Kustom Teks Logo</span>
+                        </h3>
+
+                        <div>
+                            <label class="block text-xs font-bold text-slate-700 mb-1">Teks Kustom Logo Utama Aplikasi</label>
+                            <div class="flex space-x-2">
+                                <input type="text" x-model="settings.logoText" placeholder="Contoh: SLWT / INC / KASIR" class="flex-1 border rounded-xl p-2.5 text-xs font-black uppercase tracking-wider border-slate-300">
+                                <button @click="settings.logoText = ''; saveStorage(); showToast('Teks logo dibersihkan!')" class="bg-rose-50 hover:bg-rose-100 text-rose-600 border border-rose-200 px-3 rounded-xl text-xs font-bold" title="Hapus Teks Logo">
+                                    <i class="fa-solid fa-trash-can mr-1"></i> Hapus
+                                </button>
+                            </div>
+                        </div>
+
+                        <div>
+                            <label class="block text-xs font-bold text-slate-700 mb-1">Teks Nama Aplikasi / Badge Toolbar Header</label>
+                            <div class="flex space-x-2">
+                                <input type="text" x-model="settings.appNameText" placeholder="Contoh: ENTERPRISE / POS / V3.0" class="flex-1 border rounded-xl p-2.5 text-xs font-extrabold uppercase border-slate-300">
+                                <button @click="settings.appNameText = ''; saveStorage(); showToast('Teks aplikasi toolbar dibersihkan!')" class="bg-rose-50 hover:bg-rose-100 text-rose-600 border border-rose-200 px-3 rounded-xl text-xs font-bold" title="Hapus Label Toolbar">
+                                    <i class="fa-solid fa-trash-can mr-1"></i> Hapus
+                                </button>
+                            </div>
+                        </div>
+
+                        <div>
+                            <label class="block text-xs font-bold text-slate-700 mb-1">Nama Perusahaan / Usaha</label>
+                            <div class="flex space-x-2">
+                                <input type="text" x-model="settings.companyName" class="flex-1 border rounded-xl p-2.5 text-xs font-bold border-slate-300">
+                                <button @click="settings.companyName = ''; saveStorage()" class="bg-slate-100 text-slate-600 border px-3 rounded-xl text-xs font-bold hover:bg-rose-50 hover:text-rose-600">Hapus</button>
+                            </div>
+                        </div>
+
+                        <div>
+                            <label class="block text-xs font-bold text-slate-700 mb-1">Tagline / Slogan Perusahaan</label>
+                            <div class="flex space-x-2">
+                                <input type="text" x-model="settings.companyTagline" class="flex-1 border rounded-xl p-2.5 text-xs border-slate-300">
+                                <button @click="settings.companyTagline = ''; saveStorage()" class="bg-slate-100 text-slate-600 border px-3 rounded-xl text-xs font-bold hover:bg-rose-50 hover:text-rose-600">Hapus</button>
+                            </div>
+                        </div>
+                        
+                        <div class="border-t pt-3 space-y-2">
+                            <label class="block text-xs font-bold text-slate-700">Upload Gambar Logo dari PC (Opsional)</label>
+                            <input type="file" accept="image/*" @change="uploadImage($event, 'logoImg')" class="block w-full text-xs text-slate-500 file:mr-4 file:py-2 file:px-4 file:rounded-xl file:border-0 file:text-xs file:font-bold file:bg-amber-500 file:text-slate-900 hover:file:bg-amber-400 cursor-pointer">
+                            <div class="flex items-center space-x-3 pt-2" x-show="settings.logoImg">
+                                <img :src="settings.logoImg" class="w-12 h-12 object-cover rounded-lg border">
+                                <button @click="settings.logoImg = ''" class="text-xs text-rose-500 font-bold hover:underline"><i class="fa-solid fa-xmark mr-1"></i> Hapus Gambar Logo</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="space-y-6">
+                        <!-- PENGATURAN UKURAN FONT & LAYOUT CETAK A4 -->
+                        <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 space-y-4">
+                            <h3 class="font-bold text-slate-800 border-b pb-2 text-sm flex items-center">
+                                <i class="fa-solid fa-print mr-2 text-amber-500"></i> Pengaturan Ukuran Font & Presisi Kertas A4
+                            </h3>
+                            <div class="grid grid-cols-2 gap-3">
+                                <div>
+                                    <label class="block text-xs font-bold text-slate-700 mb-1">Ukuran Font Base (px)</label>
+                                    <input type="number" x-model.number="settings.invFontSize" min="9" max="18" class="w-full border border-slate-300 rounded-xl p-2 text-xs font-bold">
+                                    <p class="text-[10px] text-slate-400 mt-0.5">Rekomendasi: 11px - 13px untuk A4</p>
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-bold text-slate-700 mb-1">Kerapatan Layout Sheet</label>
+                                    <select x-model="settings.invSpacing" class="w-full border border-slate-300 rounded-xl p-2 text-xs font-bold">
+                                        <option value="compact">Ringkas (Hemat Tempat A4)</option>
+                                        <option value="normal">Normal Standard</option>
+                                        <option value="loose">Longgar (Satu Lembar Luas)</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="border-t pt-4">
+                                <label class="block text-xs font-bold text-slate-700 mb-1">Posisi Status Nota Saat Dicetak</label>
+                                <select x-model="settings.statusNotaPosition" @change="saveStorage()" class="w-full border border-slate-300 rounded-xl p-2.5 text-xs font-bold">
+                                    <option value="top-left">Atas — Kiri</option>
+                                    <option value="top-center">Atas — Tengah</option>
+                                    <option value="top-right">Atas — Kanan (Default)</option>
+                                    <option value="middle-left">Tengah — Kiri</option>
+                                    <option value="middle-center">Tengah — Tengah</option>
+                                    <option value="middle-right">Tengah — Kanan</option>
+                                    <option value="bottom-left">Bawah — Kiri</option>
+                                    <option value="bottom-center">Bawah — Tengah</option>
+                                    <option value="bottom-right">Bawah — Kanan</option>
+                                </select>
+                                <p class="text-[10px] text-slate-400 mt-1">Mengatur posisi cap <b>LUNAS / DP TERBAYAR / BELUM LUNAS</b> pada hasil cetak/PDF A4.</p>
+                            </div>
+                        </div>
+
+                        <!-- Invoice Number Settings -->
+                        <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 space-y-4">
+                            <h3 class="font-bold text-slate-800 border-b pb-2 text-sm flex items-center">
+                                <i class="fa-solid fa-hashtag mr-2 text-amber-500"></i> Penomoran Invoice
+                            </h3>
+                            <div class="grid grid-cols-2 gap-3">
+                                <label class="border rounded-xl p-2.5 flex items-center space-x-2 cursor-pointer hover:bg-slate-50" :class="settings.invMode === 'auto' ? 'border-amber-500 bg-amber-50/50' : ''">
+                                    <input type="radio" value="auto" x-model="settings.invMode" class="sr-only">
+                                    <i class="fa-solid fa-robot text-amber-600"></i>
+                                    <span class="text-xs font-bold">Auto Increment</span>
+                                </label>
+                                <label class="border rounded-xl p-2.5 flex items-center space-x-2 cursor-pointer hover:bg-slate-50" :class="settings.invMode === 'manual' ? 'border-amber-500 bg-amber-50/50' : ''">
+                                    <input type="radio" value="manual" x-model="settings.invMode" class="sr-only">
+                                    <i class="fa-solid fa-keyboard text-amber-600"></i>
+                                    <span class="text-xs font-bold">Manual</span>
+                                </label>
+                            </div>
+
+                            <div x-show="settings.invMode === 'auto'" class="grid grid-cols-2 gap-3 pt-1">
+                                <div>
+                                    <label class="block text-xs font-bold text-slate-700 mb-1">Prefix / Awalan</label>
+                                    <input type="text" x-model="settings.invPrefix" class="w-full border rounded-xl p-2 text-xs font-mono border-slate-300">
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-bold text-slate-700 mb-1">Counter Urutan</label>
+                                    <input type="number" x-model.number="settings.invCounter" class="w-full border rounded-xl p-2 text-xs font-bold border-slate-300">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- PENGATURAN TTD & POSISI ALIGNMENT -->
+                        <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 space-y-4">
+                            <h3 class="font-bold text-slate-800 border-b pb-2 text-sm flex items-center">
+                                <i class="fa-solid fa-file-signature mr-2 text-amber-500"></i> Penandatangan & Posisi "Hormat Kami"
+                            </h3>
+
+                            <div class="grid grid-cols-2 gap-3">
+                                <div>
+                                    <label class="block text-xs font-bold text-slate-700 mb-1">Posisi Alignment TTD</label>
+                                    <select x-model="settings.signerAlign" class="w-full border rounded-xl p-2 text-xs font-bold border-slate-300">
+                                        <option value="right">Kanan Pas (Default)</option>
+                                        <option value="center">Tengah (Center)</option>
+                                        <option value="left">Kiri (Left)</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-bold text-slate-700 mb-1">Margin Kanan (px)</label>
+                                    <input type="number" x-model.number="settings.signerMarginRight" min="0" max="200" class="w-full border rounded-xl p-2 text-xs font-bold border-slate-300">
+                                </div>
+                            </div>
+
+                            <div>
+                                <label class="block text-xs font-bold text-slate-700 mb-1">Nama Penandatangan</label>
+                                <div class="flex space-x-2">
+                                    <input type="text" x-model="settings.signerName" class="flex-1 border rounded-xl p-2.5 text-xs font-bold border-slate-300">
+                                    <button @click="settings.signerName = ''" class="bg-slate-100 text-slate-600 border px-3 rounded-xl text-xs font-bold hover:bg-rose-50 hover:text-rose-600">Hapus</button>
+                                </div>
+                            </div>
+
+                            <div class="border-t pt-3 space-y-2">
+                                <label class="block text-xs font-bold text-slate-700">Upload Gambar Tanda Tangan dari PC</label>
+                                <input type="file" accept="image/*" @change="uploadImage($event, 'sigImg')" class="block w-full text-xs text-slate-500 file:mr-4 file:py-2 file:px-4 file:rounded-xl file:border-0 file:text-xs file:font-bold file:bg-amber-500 file:text-slate-900 hover:file:bg-amber-400 cursor-pointer">
+                                <div class="flex items-center space-x-3 pt-2" x-show="settings.sigImg">
+                                    <img :src="settings.sigImg" class="h-12 object-contain rounded border p-1 bg-white">
+                                    <button @click="settings.sigImg = ''" class="text-xs text-rose-500 font-bold hover:underline"><i class="fa-solid fa-xmark mr-1"></i> Hapus TTD</button>
+                                </div>
+                            </div>
+
+                            <div>
+                                <label class="block text-xs font-bold text-slate-700 mb-1">Daftar Rekening Bank (Tampil Di Invoice)</label>
+                                <textarea x-model="settings.bankAccounts" rows="3" class="w-full border rounded-xl p-2.5 text-xs font-mono resize-none border-slate-300"></textarea>
+                                <button @click="settings.bankAccounts = ''; saveStorage()" class="mt-1 text-xs text-rose-600 font-bold hover:underline">Clear Rekening</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex justify-end">
+                    <button @click="saveSettings(); showToast('Pengaturan Invoice berhasil disimpan!')" class="bg-theme-accent hover:bg-theme-accent-hover text-theme-accent-text font-extrabold px-6 py-3 rounded-xl text-xs sm:text-sm shadow-md transition flex items-center">
+                        <i class="fa-solid fa-check mr-2"></i> Simpan Pengaturan Invoice
+                    </button>
+                </div>
+            </section>
+
+            <!-- TAB 7: PENGATURAN KEUANGAN & DATABASE -->
+            <section x-show="currentTab === 'settingsFinance'" x-transition:enter="transition ease-out duration-200" class="space-y-6">
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200">
+                    <h2 class="text-xl font-bold text-slate-900 flex items-center">
+                        <i class="fa-solid fa-coins mr-2 text-amber-500"></i> Pengaturan Modul Keuangan & Backup Database
+                    </h2>
+                    <p class="text-xs text-slate-500 mt-1">Konfigurasi grafik, nama file ekspor, password aplikasi, dan backup/restore database lengkap.</p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 space-y-4">
+                        <h3 class="font-bold text-slate-800 border-b pb-2 text-sm">Pengaturan Modul Grafis & Ekspor</h3>
+                        <div>
+                            <label class="block text-xs font-bold text-slate-700 mb-1">Tipe Grafik Keuangan</label>
+                            <select x-model="financeSettings.chartType" @change="renderChart()" class="w-full border border-slate-300 rounded-xl p-2.5 text-xs font-bold">
+                                <option value="bar">📊 Bar Chart (Batang Vertical)</option>
+                                <option value="line">📈 Line Chart (Garis Trend)</option>
+                                <option value="doughnut">🍩 Doughnut Chart (Donat)</option>
+                                <option value="pie">🥧 Pie Chart (Lingkaran / Pai)</option>
+                                <option value="polarArea">❄️ Polar Area Chart</option>
+                                <option value="radar">🕸️ Radar Chart</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="block text-xs font-bold text-slate-700 mb-1">Nama File Download Excel</label>
+                            <input type="text" x-model="financeSettings.excelFilename" class="w-full border rounded-xl p-2.5 text-xs font-mono border-slate-300">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-bold text-slate-700 mb-1">Password Akses Aplikasi</label>
+                            <input type="text" x-model="financeSettings.password" class="w-full border rounded-xl p-2.5 text-xs font-bold font-mono border-slate-300">
+                        </div>
+                    </div>
+
+                    <!-- Backup and Restore Data Box + RESET SYSTEM -->
+                    <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 space-y-4">
+                        <h3 class="font-bold text-slate-800 border-b pb-2 text-sm flex items-center">
+                            <i class="fa-solid fa-database mr-2 text-amber-500"></i> Cadangan, Pemulihan & Reset Data
+                        </h3>
+                        <p class="text-xs text-slate-500">Unduh seluruh database (Invoice, Data Pelanggan, Produk, Arus Kas, Pengaturan) atau pulihkan kembali dari file JSON.</p>
+                        
+                        <div class="flex flex-col sm:flex-row flex-wrap gap-3 pt-2">
+                            <button @click="exportJSONBackup()" class="bg-slate-900 hover:bg-slate-800 text-white font-bold py-3 px-4 rounded-xl text-xs transition flex items-center justify-center">
+                                <i class="fa-solid fa-download mr-2"></i> Backup Lengkap (JSON)
+                            </button>
+                            <button @click="exportCustomersOnlyJSON()" class="bg-amber-600 hover:bg-amber-700 text-white font-bold py-3 px-4 rounded-xl text-xs transition flex items-center justify-center">
+                                <i class="fa-solid fa-users-gear mr-2"></i> Backup Data Pelanggan Saja (JSON)
+                            </button>
+                            <button @click="exportFinanceOnlyJSON()" class="bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-3 px-4 rounded-xl text-xs transition flex items-center justify-center">
+                                <i class="fa-solid fa-file-invoice-dollar mr-2"></i> Backup Transaksi Kas Saja (JSON)
+                            </button>
+                            <label class="bg-slate-100 hover:bg-slate-200 text-slate-800 font-bold py-3 px-4 rounded-xl text-xs transition flex items-center justify-center cursor-pointer border border-slate-300">
+                                <i class="fa-solid fa-upload mr-2"></i> Restore Backup (JSON)
+                                <input type="file" accept=".json" @change="importJSONBackup($event)" class="hidden">
+                            </label>
+                        </div>
+
+                        <div class="border-t pt-4">
+                            <p class="text-[11px] font-bold text-rose-600 mb-2"><i class="fa-solid fa-triangle-exclamation mr-1"></i> Area Pembersihan Data:</p>
+                            <button @click="resetAllData()" class="w-full bg-rose-50 hover:bg-rose-100 text-rose-700 border border-rose-200 font-bold py-2.5 px-4 rounded-xl text-xs transition flex items-center justify-center shadow-sm">
+                                <i class="fa-solid fa-trash-can mr-2"></i> Reset & Hapus Seluruh Data Aplikasi
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex justify-end">
+                    <button @click="saveSettings(); renderChart(); showToast('Pengaturan Keuangan disimpan!')" class="bg-theme-accent hover:bg-theme-accent-hover text-theme-accent-text font-extrabold px-6 py-3 rounded-xl text-xs sm:text-sm shadow-md transition flex items-center">
+                        <i class="fa-solid fa-check mr-2"></i> Simpan Pengaturan Keuangan
+                    </button>
+                </div>
+            </section>
+
+            <!-- TAB 8: PENGATURAN TAMPILAN & TOOLBAR -->
+            <section x-show="currentTab === 'settingsUI'" x-transition:enter="transition ease-out duration-200" class="space-y-6">
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200">
+                    <h2 class="text-xl font-bold text-slate-900 flex items-center">
+                        <i class="fa-solid fa-palette mr-2 text-amber-500"></i> Pengaturan Tampilan, Tema & Toolbar Navigasi
+                    </h2>
+                    <p class="text-xs text-slate-500 mt-1">Geser tata letak urutan toolbar navigasi, tambah menu baru, hapus menu, atur posisi toolbar, dan pilih warna tema.</p>
+                </div>
+
+                <!-- Position Selector -->
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 space-y-4">
+                    <h3 class="font-bold text-slate-800 border-b pb-2 text-sm flex items-center">
+                        <i class="fa-solid fa-arrows-up-down-left-right mr-2 text-amber-500"></i> Posisi Tampilan Menu Toolbar Navigation
+                    </h3>
+                    <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                        <label class="border-2 rounded-2xl p-4 flex flex-col items-center justify-center cursor-pointer transition" 
+                               :class="settings.toolbarPos === 'top' ? 'border-amber-500 bg-amber-50/50 text-slate-900 font-bold' : 'border-slate-200 hover:border-slate-300'">
+                            <input type="radio" value="top" x-model="settings.toolbarPos" class="sr-only">
+                            <i class="fa-solid fa-window-maximize text-2xl mb-2" :class="settings.toolbarPos === 'top' ? 'text-amber-600' : 'text-slate-400'"></i>
+                            <span class="text-xs">Atas Sticky (Header)</span>
+                        </label>
+                        <label class="border-2 rounded-2xl p-4 flex flex-col items-center justify-center cursor-pointer transition" 
+                               :class="settings.toolbarPos === 'left' ? 'border-amber-500 bg-amber-50/50 text-slate-900 font-bold' : 'border-slate-200 hover:border-slate-300'">
+                            <input type="radio" value="left" x-model="settings.toolbarPos" class="sr-only">
+                            <i class="fa-solid fa-table-columns text-2xl mb-2" :class="settings.toolbarPos === 'left' ? 'text-amber-600' : 'text-slate-400'"></i>
+                            <span class="text-xs">Samping Kiri (Sidebar)</span>
+                        </label>
+                        <label class="border-2 rounded-2xl p-4 flex flex-col items-center justify-center cursor-pointer transition" 
+                               :class="settings.toolbarPos === 'bottom' ? 'border-amber-500 bg-amber-50/50 text-slate-900 font-bold' : 'border-slate-200 hover:border-slate-300'">
+                            <input type="radio" value="bottom" x-model="settings.toolbarPos" class="sr-only">
+                            <i class="fa-solid fa-dock text-2xl mb-2" :class="settings.toolbarPos === 'bottom' ? 'text-amber-600' : 'text-slate-400'"></i>
+                            <span class="text-xs">Bawah (Dock Nav)</span>
+                        </label>
+                    </div>
+                </div>
+
+                <!-- GESER TATA LETAK & KELOLA MENU TOOLBAR NAVIGASI -->
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 space-y-4">
+                    <div class="flex justify-between items-center border-b pb-2 flex-wrap gap-2">
+                        <h3 class="font-bold text-slate-800 text-sm flex items-center">
+                            <i class="fa-solid fa-UpDownLeftRight mr-2 text-amber-500"></i> Kelola Urutan & Edit Menu Navigasi Toolbar
+                        </h3>
+                        <div class="flex space-x-3 text-xs font-bold">
+                            <button @click="addNewCustomNavItem()" class="text-emerald-600 hover:underline flex items-center">
+                                <i class="fa-solid fa-plus-circle mr-1"></i> Tambah Menu Baru
+                            </button>
+                            <button @click="resetNavOrder()" class="text-indigo-600 hover:underline flex items-center">
+                                <i class="fa-solid fa-rotate-left mr-1"></i> Reset Navigasi Default
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="space-y-2">
+                        <template x-for="(tab, idx) in visibleNavItems" :key="tab.key">
+                            <div class="flex items-center justify-between p-3 bg-slate-50 border border-slate-200 rounded-xl gap-3 flex-wrap sm:flex-nowrap">
+                                <div class="flex items-center space-x-3 flex-1 min-w-[200px]">
+                                    <div class="w-8 h-8 rounded-lg bg-slate-200 text-slate-700 flex items-center justify-center font-bold text-xs shrink-0">
+                                        <i :class="tab.icon"></i>
+                                    </div>
+                                    <input type="text" x-model="navLabels[tab.key]" :placeholder="tab.defaultLabel" class="border border-slate-300 rounded-lg p-2 text-xs font-bold text-slate-800 flex-1 max-w-xs focus:ring-2 focus:ring-amber-500 focus:outline-none">
+                                </div>
+
+                                <div class="flex items-center space-x-1.5 shrink-0">
+                                    <button @click="moveNavItem(idx, -1)" :disabled="idx === 0" class="w-8 h-8 rounded-lg bg-white border border-slate-300 hover:bg-amber-50 hover:border-amber-400 disabled:opacity-30 disabled:hover:bg-white text-slate-700 font-bold text-xs transition flex items-center justify-center" title="Geser Naik">
+                                        <i class="fa-solid fa-arrow-up"></i>
+                                    </button>
+                                    <button @click="moveNavItem(idx, 1)" :disabled="idx === visibleNavItems.length - 1" class="w-8 h-8 rounded-lg bg-white border border-slate-300 hover:bg-amber-50 hover:border-amber-400 disabled:opacity-30 disabled:hover:bg-white text-slate-700 font-bold text-xs transition flex items-center justify-center" title="Geser Turun">
+                                        <i class="fa-solid fa-arrow-down"></i>
+                                    </button>
+                                    <button @click="deleteNavItem(idx)" class="w-8 h-8 rounded-lg bg-rose-50 border border-rose-200 hover:bg-rose-100 text-rose-600 font-bold text-xs transition flex items-center justify-center" title="Hapus Menu">
+                                        <i class="fa-solid fa-trash-can"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </template>
+                    </div>
+                </div>
+
+                <!-- Theme Preset Selector -->
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 space-y-4">
+                    <h3 class="font-bold text-slate-800 border-b pb-2 text-sm flex items-center">
+                        <i class="fa-solid fa-brush mr-2 text-amber-500"></i> Preset Warna Tema Aplikasi
+                    </h3>
+                    <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3">
+                        <template x-for="(theme, key) in themePresets" :key="key">
+                            <button @click="settings.themeKey = key" 
+                                    class="p-3 rounded-2xl border-2 flex flex-col items-center space-y-2 transition text-xs font-bold"
+                                    :class="settings.themeKey === key ? 'border-slate-900 ring-2 ring-slate-900/20 shadow' : 'border-slate-200 hover:border-slate-300'">
+                                <div class="flex space-x-1">
+                                    <span class="w-4 h-4 rounded-full border shadow-sm" :style="{ backgroundColor: theme.headerBg }"></span>
+                                    <span class="w-4 h-4 rounded-full border shadow-sm" :style="{ backgroundColor: theme.accent }"></span>
+                                </div>
+                                <span x-text="theme.name" class="text-[11px] text-slate-700"></span>
+                            </button>
+                        </template>
+                    </div>
+                </div>
+
+                <div class="flex justify-end">
+                    <button @click="saveSettings(); showToast('Pengaturan Tampilan berhasil disimpan!')" class="bg-theme-accent hover:bg-theme-accent-hover text-theme-accent-text font-extrabold px-6 py-3 rounded-xl text-xs sm:text-sm shadow-md transition flex items-center">
+                        <i class="fa-solid fa-check mr-2"></i> Simpan Tampilan & Theme
+                    </button>
+                </div>
+            </section>
+
+        </main>
+
+        <!-- TOOLBAR: BOTTOM NAVIGATION POSITION -->
+        <nav x-show="settings.toolbarPos === 'bottom'" class="bg-theme-header text-theme-header-text no-print fixed bottom-0 left-0 right-0 z-50 shadow-2xl border-t border-slate-700/60 transition-all duration-300">
+            <div class="max-w-7xl mx-auto px-2 py-2 flex justify-around items-center">
+                <template x-for="tab in visibleNavItems" :key="tab.key">
+                    <button @click="switchTab(tab.key)" 
+                            :class="currentTab === tab.key ? 'text-amber-400 font-extrabold scale-105' : 'text-slate-400 hover:text-white'" 
+                            class="flex flex-col items-center py-1 px-2 rounded-xl transition-all duration-200">
+                        <i :class="tab.icon + ' text-base mb-0.5'"></i>
+                        <span class="text-[10px] truncate max-w-[70px]" x-text="navLabels[tab.key] || tab.defaultLabel"></span>
+                    </button>
+                </template>
+            </div>
+        </nav>
+
+    </div>
+
+    <!-- MODAL: TAMBAH / EDIT DATA PELANGGAN -->
+    <div x-show="customerModalOpen" x-cloak class="fixed inset-0 bg-slate-900/60 backdrop-blur-sm z-50 flex items-center justify-center p-4">
+        <div class="bg-white rounded-2xl shadow-2xl max-w-md w-full p-6 space-y-4">
+            <div class="flex justify-between items-center border-b pb-3">
+                <h3 class="font-bold text-slate-800 text-base" x-text="editingCustomerId ? 'Edit Data Pelanggan' : 'Tambah Pelanggan Baru'"></h3>
+                <button @click="customerModalOpen = false" class="text-slate-400 hover:text-slate-600"><i class="fa-solid fa-xmark text-lg"></i></button>
+            </div>
+            <form @submit.prevent="saveCustomerForm" class="space-y-3 text-xs">
+                <div>
+                    <label class="block font-bold text-slate-700 mb-1">Nama Pelanggan / Perusahaan <span class="text-rose-500">*</span></label>
+                    <input type="text" x-model="custForm.name" required placeholder="Contoh: PMB UMPP / Bpk. Ahmad" class="w-full border rounded-xl p-2.5 font-bold focus:ring-2 focus:ring-amber-500 focus:outline-none">
+                </div>
+                <div>
+                    <label class="block font-bold text-slate-700 mb-1">No. HP / WhatsApp</label>
+                    <input type="text" x-model="custForm.phone" placeholder="Contoh: 08123456789" class="w-full border rounded-xl p-2.5 font-mono font-semibold focus:ring-2 focus:ring-amber-500 focus:outline-none">
+                </div>
+                <div>
+                    <label class="block font-bold text-slate-700 mb-1">Alamat Lengkap</label>
+                    <textarea x-model="custForm.address" rows="2" placeholder="Jl. Raya Pekajangan, Pekalongan" class="w-full border rounded-xl p-2.5 font-medium resize-none focus:ring-2 focus:ring-amber-500 focus:outline-none"></textarea>
+                </div>
+                <div>
+                    <div class="flex justify-between items-center mb-1">
+                        <label class="font-bold text-slate-700">Tanggal Pemesanan <span class="text-rose-500">*</span></label>
+                        <button type="button" @click="custForm.orderDate = getTodayDate()" class="text-[10px] text-amber-600 font-bold hover:underline">Hari Ini</button>
+                    </div>
+                    <input type="date" x-model="custForm.orderDate" required class="w-full border rounded-xl p-2.5 font-bold focus:ring-2 focus:ring-amber-500 focus:outline-none">
+                </div>
+                <div>
+                    <label class="block font-bold text-slate-700 mb-1">Produk / Item yang Dipesan</label>
+                    <textarea x-model="custForm.productOrdered" rows="2" placeholder="POUCH CUSTOM - 500 Pcs" class="w-full border rounded-xl p-2.5 font-semibold resize-none focus:ring-2 focus:ring-amber-500 focus:outline-none"></textarea>
+                </div>
+                <div>
+                    <label class="block font-bold text-slate-700 mb-1">Catatan Tambahan (Opsional)</label>
+                    <input type="text" x-model="custForm.notes" placeholder="Catatan sablon/DP..." class="w-full border rounded-xl p-2.5 font-medium focus:ring-2 focus:ring-amber-500 focus:outline-none">
+                </div>
+                <button type="submit" class="w-full bg-slate-900 hover:bg-slate-800 text-white font-bold py-3 rounded-xl shadow transition">
+                    <i class="fa-solid fa-check mr-1.5"></i> Simpan Data Pelanggan
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- MODAL REKAP METRIC -->
+    <div x-show="metricModalOpen" x-cloak class="fixed inset-0 bg-slate-900/60 backdrop-blur-sm z-[90] flex items-center justify-center p-4">
+        <div class="bg-white rounded-2xl shadow-2xl max-w-2xl w-full p-6 space-y-4 max-h-[85vh] flex flex-col">
+            <div class="flex justify-between items-center border-b pb-3">
+                <h3 class="font-bold text-slate-800 text-base flex items-center">
+                    <i class="fa-solid fa-list-check text-amber-500 mr-2"></i>
+                    <span x-text="selectedMetricType === 'Masuk' ? 'Detail Rekap Total Pemasukan' : (selectedMetricType === 'Keluar' ? 'Detail Rekap Total Pengeluaran' : 'Detail Rekap Saldo Kas Gabungan')"></span>
+                </h3>
+                <button @click="metricModalOpen = false" class="text-slate-400 hover:text-slate-600 p-1"><i class="fa-solid fa-xmark text-lg"></i></button>
+            </div>
+
+            <div class="flex justify-between items-center bg-slate-50 p-3.5 rounded-xl border">
+                <div>
+                    <span class="text-xs font-bold text-slate-500 uppercase block">Total Nominal Rekap:</span>
+                    <span x-show="selectedMonth" class="text-[10px] font-extrabold text-amber-600" x-text="'(Bulan: ' + selectedMonth + ')'"></span>
+                </div>
+                <span class="text-lg font-black" :class="selectedMetricType === 'Masuk' ? 'text-emerald-600' : (selectedMetricType === 'Keluar' ? 'text-rose-600' : 'text-amber-500')" x-text="formatRupiah(getMetricTotal())"></span>
+            </div>
+
+            <div class="overflow-y-auto flex-1">
+                <table class="w-full text-left text-xs">
+                    <thead>
+                        <tr class="bg-slate-900 text-white text-[10px] uppercase">
+                            <th class="p-2.5">Tanggal</th>
+                            <th class="p-2.5">Keterangan</th>
+                            <th class="p-2.5">Toko / Sumber</th>
+                            <th class="p-2.5">Jenis</th>
+                            <th class="p-2.5 text-right">Jumlah</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-slate-100">
+                        <template x-for="item in getMetricItems()" :key="item.id">
+                            <tr class="hover:bg-slate-50">
+                                <td class="p-2.5 font-mono text-slate-500" x-text="item.date"></td>
+                                <td class="p-2.5 font-bold text-slate-800" x-text="item.name"></td>
+                                <td class="p-2.5 text-slate-600" x-text="item.store || '-'"></td>
+                                <td class="p-2.5">
+                                    <span class="px-2 py-0.5 rounded font-black text-[9px] uppercase" 
+                                          :class="item.type === 'Masuk' ? 'bg-emerald-100 text-emerald-800' : 'bg-rose-100 text-rose-800'" 
+                                          x-text="item.type"></span>
+                                </td>
+                                <td class="p-2.5 text-right font-black text-slate-900" x-text="formatRupiah(item.amount)"></td>
+                            </tr>
+                        </template>
+                        <tr x-show="getMetricItems().length === 0">
+                            <td colspan="5" class="p-6 text-center text-slate-400 text-xs">Tidak ada data transaksi ditemukan.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="flex justify-end pt-2 border-t">
+                <button @click="metricModalOpen = false" class="bg-slate-200 text-slate-800 font-bold px-4 py-2 rounded-xl text-xs hover:bg-slate-300">Tutup</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL: PRODUCT PICKER -->
+    <div x-show="productModalOpen" x-cloak class="fixed inset-0 bg-slate-900/60 backdrop-blur-sm z-50 flex items-center justify-center p-4">
+        <div class="bg-white rounded-2xl shadow-2xl max-w-lg w-full p-6 space-y-4">
+            <div class="flex justify-between items-center border-b pb-3">
+                <h3 class="font-bold text-slate-800 text-base flex items-center">
+                    <i class="fa-solid fa-boxes-stacked text-amber-500 mr-2"></i> Pilih dari Master Produk
+                </h3>
+                <button @click="productModalOpen = false" class="text-slate-400 hover:text-slate-600 p-1"><i class="fa-solid fa-xmark text-lg"></i></button>
+            </div>
+            <div class="max-h-80 overflow-y-auto space-y-2 pr-1">
+                <template x-for="p in products" :key="p.id">
+                    <div @click="addSelectedProduct(p)" class="p-3 bg-slate-50 hover:bg-amber-50/80 border border-slate-200 hover:border-amber-300 rounded-xl cursor-pointer transition flex justify-between items-center group">
+                        <div>
+                            <p class="font-bold text-slate-800 text-xs sm:text-sm group-hover:text-amber-900" x-text="p.name"></p>
+                            <p class="text-[11px] text-slate-500" x-text="(p.desc || 'Tanpa deskripsi') + ' • ' + formatRupiah(p.price)"></p>
+                        </div>
+                        <span class="bg-slate-900 group-hover:bg-amber-500 group-hover:text-slate-900 text-white font-bold px-3 py-1 rounded-lg text-xs transition">Pilih</span>
+                    </div>
+                </template>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL: PRODUCT CRUD -->
+    <div x-show="productCrudModalOpen" x-cloak class="fixed inset-0 bg-slate-900/60 backdrop-blur-sm z-50 flex items-center justify-center p-4">
+        <div class="bg-white rounded-2xl shadow-2xl max-w-md w-full p-6 space-y-4">
+            <div class="flex justify-between items-center border-b pb-3">
+                <h3 class="font-bold text-slate-800 text-base" x-text="editingProductId ? 'Edit Produk' : 'Tambah Produk Baru'"></h3>
+                <button @click="productCrudModalOpen = false" class="text-slate-400 hover:text-slate-600"><i class="fa-solid fa-xmark text-lg"></i></button>
+            </div>
+            <form @submit.prevent="saveProductForm" class="space-y-3 text-xs">
+                <div>
+                    <label class="block font-bold mb-1">Nama Produk / Jasa</label>
+                    <input type="text" x-model="productForm.name" required placeholder="Contoh: POUCH CUSTOM" class="w-full border rounded-xl p-2.5 font-bold">
+                </div>
+                <div>
+                    <label class="block font-bold mb-1">Deskripsi Item</label>
+                    <textarea x-model="productForm.desc" rows="3" placeholder="- Custom design canvas" class="w-full border rounded-xl p-2.5 font-medium resize-none"></textarea>
+                </div>
+                <div>
+                    <label class="block font-bold mb-1">Harga Satuan Standard (Rp)</label>
+                    <input type="number" x-model.number="productForm.price" required min="0" class="w-full border rounded-xl p-2.5 font-bold">
+                </div>
+                <button type="submit" class="w-full bg-slate-900 text-white font-bold py-3 rounded-xl shadow transition">Simpan Produk</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- MODAL: PHOTO PREVIEW -->
+    <div x-show="photoPreviewModalOpen" x-cloak class="fixed inset-0 bg-slate-900/80 backdrop-blur-sm z-[100] flex items-center justify-center p-4" @click.self="photoPreviewModalOpen = false">
+        <div class="relative max-w-3xl max-h-[90vh]">
+            <img :src="activePhotoSrc" class="max-w-full max-h-[85vh] object-contain rounded-2xl shadow-2xl">
+            <button @click="photoPreviewModalOpen = false" class="absolute -top-3 -right-3 w-9 h-9 rounded-full bg-white text-slate-900 font-black shadow-lg flex items-center justify-center">×</button>
+        </div>
+    </div>
+
+    <!-- MODAL: EDIT TRANSACTION -->
+    <div x-show="editTransactionModalOpen" x-cloak class="fixed inset-0 bg-slate-900/60 backdrop-blur-sm z-50 flex items-center justify-center p-4">
+        <div class="bg-white rounded-2xl shadow-2xl max-w-md w-full p-6 space-y-4">
+            <div class="flex justify-between items-center border-b pb-3">
+                <h3 class="font-bold text-slate-800 text-base">Edit Transaksi Kas</h3>
+                <button @click="editTransactionModalOpen = false" class="text-slate-400 hover:text-slate-600"><i class="fa-solid fa-xmark text-lg"></i></button>
+            </div>
+            <form @submit.prevent="updateFinanceTransaction" class="space-y-3 text-xs">
+                <div>
+                    <label class="block font-bold mb-1">Keterangan / Transaksi</label>
+                    <input type="text" x-model="editFinForm.name" required class="w-full border rounded-xl p-2.5 font-bold">
+                </div>
+                <div class="grid grid-cols-2 gap-2">
+                    <div>
+                        <label class="block font-bold mb-1">Jenis Kas</label>
+                        <select x-model="editFinForm.type" class="w-full border rounded-xl p-2.5 font-bold">
+                            <option value="Masuk">🟢 Pemasukan</option>
+                            <option value="Keluar">🔴 Pengeluaran</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block font-bold mb-1">Toko / Sumber</label>
+                        <input type="text" x-model="editFinForm.store" required class="w-full border rounded-xl p-2.5 font-semibold">
+                    </div>
+                </div>
+                <div class="grid grid-cols-2 gap-2">
+                    <div>
+                        <label class="block font-bold mb-1">Jumlah (Rp)</label>
+                        <input type="number" x-model.number="editFinForm.amount" required min="1" class="w-full border rounded-xl p-2.5 font-bold">
+                    </div>
+                    <div>
+                        <div class="flex justify-between items-center mb-1">
+                            <label class="font-bold">Tanggal</label>
+                            <button type="button" @click="editFinForm.date = getTodayDate()" class="text-[10px] text-amber-600 font-bold hover:underline">Hari Ini</button>
+                        </div>
+                        <input type="date" x-model="editFinForm.date" required class="w-full border rounded-xl p-2.5 font-medium">
+                    </div>
+                </div>
+                <div>
+                    <label class="block font-bold mb-1">Ganti Foto Bukti (Galeri PC)</label>
+                    <input type="file" accept="image/*" @change="uploadTransactionPhoto($event, 'edit')" class="block w-full text-xs text-slate-500 file:mr-3 file:py-1.5 file:px-3 file:rounded-xl file:border-0 file:text-xs file:font-bold file:bg-slate-100 file:text-slate-700 hover:file:bg-slate-200 cursor-pointer">
+                    <template x-if="editFinForm.photo">
+                        <div class="mt-2 flex items-center space-x-2">
+                            <img :src="editFinForm.photo" class="w-10 h-10 object-cover rounded-lg border">
+                            <button type="button" @click="editFinForm.photo = ''" class="text-rose-500 text-xs font-bold hover:underline">Hapus Foto</button>
+                        </div>
+                    </template>
+                </div>
+                <button type="submit" class="w-full bg-slate-900 text-white font-bold py-3 rounded-xl shadow">Simpan Perubahan</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- MODAL: COMPANY REPORT PREVIEW -->
+    <div x-show="companyReportModalOpen" x-cloak class="fixed inset-0 bg-slate-900/70 backdrop-blur-sm z-50 flex items-center justify-center p-4">
+        <div class="bg-white rounded-2xl shadow-2xl max-w-4xl w-full p-6 space-y-4 max-h-[90vh] flex flex-col">
+            <div class="flex justify-between items-center border-b pb-3">
+                <h3 class="font-bold text-slate-800 text-base flex items-center">
+                    <i class="fa-solid fa-file-contract text-amber-500 mr-2"></i> Laporan Perusahaan Resmi
+                </h3>
+                <button @click="companyReportModalOpen = false" class="text-slate-400 hover:text-slate-600"><i class="fa-solid fa-xmark text-lg"></i></button>
+            </div>
+
+            <div id="company-report-view" class="overflow-y-auto flex-1 p-5 bg-slate-50 border rounded-xl text-xs space-y-4">
+                <div class="border-b-2 border-slate-900 pb-3 flex justify-between items-center">
+                    <div>
+                        <h2 class="font-black text-lg text-slate-900" x-text="settings.companyName || 'SLWT.INC'"></h2>
+                        <p class="text-slate-500" x-text="settings.companyTagline"></p>
+                    </div>
+                    <div class="text-right">
+                        <p class="font-bold text-slate-800 uppercase">LAPORAN KEUANGAN RESMI</p>
+                        <p class="text-slate-500 font-mono" x-text="selectedMonth ? 'PERIODE BULAN: ' + selectedMonth : 'SEMUA PERIODE'"></p>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-3 gap-3">
+                    <div class="bg-white p-3 rounded-lg border">
+                        <span class="text-slate-500">Total Pemasukan</span>
+                        <p class="font-bold text-emerald-600 text-sm" x-text="formatRupiah(totalMasuk)"></p>
+                    </div>
+                    <div class="bg-white p-3 rounded-lg border">
+                        <span class="text-slate-500">Total Pengeluaran</span>
+                        <p class="font-bold text-rose-600 text-sm" x-text="formatRupiah(totalKeluar)"></p>
+                    </div>
+                    <div class="bg-white p-3 rounded-lg border">
+                        <span class="text-slate-500">Saldo Kas Akhir</span>
+                        <p class="font-bold text-indigo-600 text-sm" x-text="formatRupiah(totalMasuk - totalKeluar)"></p>
+                    </div>
+                </div>
+
+                <table id="company-report-table" class="w-full text-left border-collapse bg-white border rounded-lg overflow-hidden">
+                    <thead>
+                        <tr class="bg-slate-900 text-white text-[10px] uppercase">
+                            <th class="p-2">Tanggal</th>
+                            <th class="p-2">Keterangan</th>
+                            <th class="p-2">Toko / Sumber</th>
+                            <th class="p-2">Jenis Arus Kas</th>
+                            <th class="p-2 text-right">Jumlah (Rp)</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y text-[11px]">
+                        <template x-for="item in filteredFinanceList" :key="item.id">
+                            <tr>
+                                <td class="p-2 font-mono text-slate-500" x-text="item.date"></td>
+                                <td class="p-2 font-bold" x-text="item.name"></td>
+                                <td class="p-2" x-text="item.store"></td>
+                                <td class="p-2" x-text="item.type"></td>
+                                <td class="p-2 text-right font-bold" x-text="formatRupiah(item.amount)"></td>
+                            </tr>
+                        </template>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="flex flex-wrap justify-between items-center gap-2 pt-2 border-t">
+                <div class="text-xs font-semibold text-slate-500">
+                    Opsi Ekspor Laporan Perusahaan:
+                </div>
+                <div class="flex flex-wrap space-x-2">
+                    <button @click="downloadCompanyReportPDF()" class="bg-rose-600 hover:bg-rose-700 text-white font-bold px-3.5 py-2 rounded-xl text-xs flex items-center shadow">
+                        <i class="fa-solid fa-file-pdf mr-1.5"></i> Download PDF (Cetak A4)
+                    </button>
+                    <button @click="downloadCompanyReportXLSX()" class="bg-emerald-600 hover:bg-emerald-700 text-white font-bold px-3.5 py-2 rounded-xl text-xs flex items-center shadow">
+                        <i class="fa-solid fa-file-excel mr-1.5"></i> Download Excel (.xlsx)
+                    </button>
+                    <button @click="downloadCompanyReportHTML()" class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold px-3.5 py-2 rounded-xl text-xs flex items-center shadow">
+                        <i class="fa-solid fa-code mr-1.5"></i> HTML
+                    </button>
+                    <button @click="companyReportModalOpen = false" class="bg-slate-200 text-slate-800 font-bold px-4 py-2 rounded-xl text-xs">Tutup</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- TOAST NOTIFICATION -->
+    <div id="toast" class="fixed bottom-8 right-8 bg-slate-900 text-white px-4 py-3 rounded-xl shadow-2xl text-xs flex items-center space-x-3 transition-all duration-300 transform translate-y-20 opacity-0 z-50 border border-slate-700">
+        <i class="fa-solid fa-circle-check text-emerald-400 text-base" id="toast-icon"></i>
+        <span id="toast-msg" class="font-bold">Berhasil</span>
+    </div>
+
+<script>
+(function(){
+    var warning=document.getElementById('slwt-runtime-warning');
+    window.setTimeout(function(){
+        if (typeof window.Alpine === 'undefined') {
+            if (warning) warning.style.display='block';
+            console.error('SLWT: Alpine.js gagal dimuat.');
+        }
+    }, 5000);
+    document.addEventListener('alpine:init', function(){
+        if (warning) warning.style.display='none';
+    });
+})();
+</script>
+</body>
+</html>
